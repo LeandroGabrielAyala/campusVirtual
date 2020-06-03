@@ -101,13 +101,41 @@ a {
 }
 
 section#header {
-    height: 350px;
+    height: 400px;
     background-image: linear-gradient(to right, rgba(var( --black-color-rgba), 0.8) 40%, rgba(var( --black-color-rgba), 0.3)), url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg);
     background-color: tomato;
     background-size: cover;
+    margin: 0;
+    padding: 0 0 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
-section#aditionalInfo, section#footer {
-    height: 80px;
+
+#header h1 {
+    color: var(--white-color);
+    margin: 0;
+    padding: 0;
+    font-size: 3.5rem;
+}
+
+#header p {
+    color: var(--white-color);
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    width: 40%;
+    line-height: 1.2;
+    font-weight: 300;
+}
+
+#header a {
+    color: var(--white-color);
+    margin: 10px 0 0 0;
+    padding: 10px 20px;
+    background-color: var(--secundary-color);
+    border-radius: 3px;
 }
 
 .container--areas {
@@ -239,4 +267,6 @@ section#aditionalInfo, section#footer {
 
 #footer {
     width: 100%;
+    height: 150px;
+    background-color: #5b2bff;
 }
