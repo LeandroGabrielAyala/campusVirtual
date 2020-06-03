@@ -7,6 +7,12 @@
     --black-color: #000000;
     --black-color-rgba: 0, 0, 0;
     --decoration-color: #c7c7c7;
+    --title-color: #353535;
+
+    /* Color RGB */
+    --dos-rgb: 255, 99, 71;
+    --tres-rgb: 71, 255, 115;
+    --cuatro-rgb: 164, 71, 255;
 }
 
 *, *::before, *::after {
@@ -49,6 +55,10 @@ a {
     color: var(--white-color);
     list-style: none;
 }
+.navbar--menu-item a,
+.navbar--menu-item a:visited {
+    color: var(--white-color);
+}
 
 .navbar--logo {
     position: relative;
@@ -56,13 +66,21 @@ a {
 
 .navbar--logo-content {
     background-color: var(--white-color);
-    clip-path: polygon(0 0, 100% 0, 100% 66%, 48% 100%, 0 66%);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 90%;
-    height: 200px;
+    width: 70%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar--logo-content img {
+    margin-top: 80px;
+    width: 80%;
 }
 
 .navbar--contact {
@@ -82,12 +100,13 @@ a {
 }
 
 section#header {
-    height: 200px;
+    height: 300px;
+    background-image: linear-gradient(to right, rgba(var( --black-color-rgba), 0.8) 40%, rgba(var( --black-color-rgba), 0.3)), url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg);
     background-color: tomato;
+    background-size: cover;
 }
 section#aditionalInfo, section#footer {
     height: 80px;
-    border-top: 2px solid #ccc;
 }
 
 .container--areas {
@@ -103,7 +122,8 @@ section#aditionalInfo, section#footer {
     text-align: center;
 }
 .container--areas-title h3 {
-    margin: 0;
+    color: var(--title-color);
+    margin: 0 0 10px 0;
     padding: 0;
     font-size: 2.5rem;
 }
@@ -114,13 +134,17 @@ section#aditionalInfo, section#footer {
     align-items: center;
 }
 
+.container--areas-title p img {
+    width: 2%;
+}
+
 .container--areas-title p::before,
 .container--areas-title p::after {
     content: "";
     height: 4px;
     border-bottom: 1px solid var(--decoration-color);
     top: 0;
-    width: 140px;
+    width: 80px;
 }
 
 .container--areas-title p::before {
@@ -141,60 +165,75 @@ section#aditionalInfo, section#footer {
 }
 
 .areas--depto {
-    color: white;
     background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.85) 40%, rgba(var(--primary-color-rgba), 0.7)), url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg);
     background-size: 25rem;
     font-size: 3rem;    
     padding: 1rem;
-    border: 6px solid var(--white-color);
     border-radius: 7px;
     box-shadow: 2px 4px 8px 2px rgba(var(--black-color-rgba), 0.15);
     overflow: hidden;
-
-    /* Flexbox */
     position: relative;
-
     transition: all .3s ease;
 }
 
-.areas--depto:hover {
-    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.9) 40%, rgba(var(--primary-color-rgba), 0.7)), url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg);
-    background-size: 28rem;
+.areas--depto:nth-child(2) {
+    background-image: linear-gradient(to right, rgba(var(--dos-rgb), 0.85) 40%, rgba(var(--dos-rgb), 0.7)), url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg);
+}
+.areas--depto:nth-child(3) {
+    background-image: linear-gradient(to right, rgba(var(--tres-rgb), 0.85) 40%, rgba(var(--tres-rgb), 0.7)), url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg);
+}
+.areas--depto:nth-child(4) {
+    background-image: linear-gradient(to right, rgba(var(--cuatro-rgb), 0.85) 40%, rgba(var(--cuatro-rgb), 0.7)), url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg);
+}
+.areas--depto:nth-child(6) {
+    background-image: linear-gradient(to right, rgba(var(--dos-rgb), 0.85) 40%, rgba(var(--dos-rgb), 0.7)), url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg);
+}
+.areas--depto:nth-child(3) {
+    background-image: linear-gradient(to right, rgba(var(--tres-rgb), 0.85) 40%, rgba(var(--tres-rgb), 0.7)), url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg);
+}
+.areas--depto:nth-child(4) {
+    background-image: linear-gradient(to right, rgba(var(--cuatro-rgb), 0.85) 40%, rgba(var(--cuatro-rgb), 0.7)), url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg);
 }
 
-/* .areas--depto:hover .areas--depto-hover {
+.areas--depto:nth-child(7) {
+    background-image: linear-gradient(to right, rgba(var(--dos-rgb), 0.85) 40%, rgba(var(--dos-rgb), 0.7)), url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg);
+}
+.areas--depto:nth-child(8) {
+    background-image: linear-gradient(to right, rgba(var(--tres-rgb), 0.85) 40%, rgba(var(--tres-rgb), 0.7)), url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg);
+}
+.areas--depto:nth-child(9) {
+    background-image: linear-gradient(to right, rgba(var(--cuatro-rgb), 0.85) 40%, rgba(var(--cuatro-rgb), 0.7)), url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg);
+}
+
+/* .areas--depto:hover {
+    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.9) 40%, rgba(var(--primary-color-rgba), 0.7)), url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg);
+    background-size: 28rem;
+} */
+
+.areas--depto:hover .areas--depto-hover {
   top: 0%;
 }
 
 .areas--depto-hover {
     position: absolute;
     width: 100%;
-    height: 190px;
+    height: 200px;
     background-color: var(--white-color);
     top: 100%;
+    left: 0%;
     transition: all .2s ease;
-} */
-
-.areas--depto:hover .areas--link {
-    right: 10%;
-    bottom: 10%;
-    transform: translate(0, 0);
 }
 
 .areas--link {
+    font-size: 1.5rem;
     position: absolute;
-    right: 50%;
-    bottom: 50%;
-    transform: translate(50%, 50%);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     color: var(--white-color);
     font-weight: 400;
-    padding: 10px 0 0 10px;
-
-    transition: all .3s ease;
-}
-
-.areas--link i {
-    font-size: 3rem;
+    padding: 0;
+    margin: 0;
 }
 
 #footer {
