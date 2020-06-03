@@ -66,21 +66,22 @@ a {
 
 .navbar--logo-content {
     background-color: var(--white-color);
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%, 0 100%); */
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 70%;
-    height: 250px;
+    width: 65%;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 0 0 10px 10px;
 }
 
 .navbar--logo-content img {
-    margin-top: 80px;
-    width: 80%;
+    margin-top: 50px;
+    width: 85%;
 }
 
 .navbar--contact {
@@ -100,7 +101,7 @@ a {
 }
 
 section#header {
-    height: 300px;
+    height: 350px;
     background-image: linear-gradient(to right, rgba(var( --black-color-rgba), 0.8) 40%, rgba(var( --black-color-rgba), 0.3)), url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg);
     background-color: tomato;
     background-size: cover;
@@ -116,7 +117,7 @@ section#aditionalInfo, section#footer {
 }
 
 .container--areas-title {
-    margin: 60px 0 40px;
+    margin: 50px 0 40px;
     padding: 0;
     width: 100%;
     text-align: center;
