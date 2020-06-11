@@ -239,8 +239,20 @@ section#headerArea {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--white-color);
+    position: relative;
 }
+#footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 57px 57px 0 57px;
+    border-color: #fff transparent transparent transparent;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 
 #otrosSitios {
     width: 100%;
@@ -251,7 +263,6 @@ section#headerArea {
     grid-template-columns: repeat(4, calc(70%/4));
     justify-content: center;
     align-items: center;
-    color: var(--white-color);
 }
 
 #otrosSitios img {
