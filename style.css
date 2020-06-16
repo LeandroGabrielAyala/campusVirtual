@@ -4,6 +4,17 @@
 
 /* Media Queries */
 @media only screen and (max-width: 1160px) {
+    .navbar--menu, .navbar--contact {
+        display: none;
+    }
+    #navbar {
+        grid-template-columns: 1fr 1fr;
+    }
+    .navbar--logo-content {
+        width: 35%;
+        left: 30%;
+    }
+
     .container--areas-title p img {
         width: 3%;
     }
@@ -22,6 +33,7 @@
 }
 
 @media only screen and (max-width: 900px) {
+
     #header p {
         width: 80%;
     }
@@ -39,5 +51,27 @@
     }
     .areas--depto {
         background-size: 50rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .navbar--logo-content {
+        left: 40%;
+        width: 50%;
+        height: 130px;
+    }
+    .navbar--logo-content img {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar--logo-content {
+        left: 40%;
+        width: 70%;
+        height: 130px;
+    }
+    .navbar--logo-content img {
+        width: 85%;
     }
 }
