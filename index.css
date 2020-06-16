@@ -120,16 +120,19 @@
     color: var(--primary-color);
     background-color: var(--white-color);
     margin: auto 0 0 0;
-    padding: 10px 15px;
+    padding: 7px 9px 4px;
     font-weight: bold;
     border-radius: 3px;
     text-transform: uppercase;
     font-size: .8rem;
     box-shadow: 0px 6px 5px rgba(0, 0, 0, .1);
+    transform: scale(1);
     transition: all .3s ease;
 }
-.areas--depto-hover a:hover {
+.areas--depto-hover a:hover, .areas--depto-hover a:active, .areas--depto-hover a:visited, .areas--depto-hover a:focus {
+    color: var(--primary-color);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, .05);
+    transform: scale(1.2);
 }
 
 .areas--link {
