@@ -186,6 +186,10 @@ a {
     text-decoration: none;
 }
 
+.navbar--logo-responsive, .icon-responsive {
+    display: none !important;
+}
+
 #navbar {
     width: 100%;
     height: 45px;
