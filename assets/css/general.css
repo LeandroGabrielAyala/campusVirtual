@@ -53,6 +53,7 @@ svg {
     height: 100vh;
     padding: 20px;
     position: fixed;
+    left: -100%;
     z-index: 10000;
 }
 
@@ -123,7 +124,7 @@ svg {
 }
 
 .menu__contact-location {
-    margin-bottom: 6px !important;
+    margin-bottom: 15px !important;
 }
 
 .menu__info a, .menu__info i {
