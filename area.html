@@ -6,7 +6,7 @@
 	<title>Área de Administración - Campus Virtual</title>
 
 	<!-- Styles -->
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 	<!-- Google Font -->
@@ -23,6 +23,54 @@
 		</svg>
 	</div>
 	<!-- // Preloader -->
+
+	<!-- Menu Responsive -->
+	<div id="menu__mobile" class="menu__mobile">
+
+		<!-- Boton cerrar menu -->
+		<div class="menu__close">
+			<i class="fas fa-times"></i>
+		</div>
+		<!-- / Boton cerrar menu -->
+
+		<!-- Menu items -->
+		<div class="menu__items">
+			<ul class="menu__list">
+				<li class="menu__list-item item1">
+					<a href="#"><i class="far fa-dot-circle"></i>Académica</a>
+					<i class="far fa-plus"></i>
+				</li>
+				<li class="menu__list-item item2">
+					<a href="#"><i class="far fa-dot-circle"></i>Institucional</a>
+				</li>
+				<li class="menu__list-item item3">
+					<a href="#"><i class="far fa-dot-circle"></i>Estudiantes</a>
+					<i class="far fa-plus"></i>
+				</li>
+				<li class="menu__list-item item4">
+					<a href="#"><i class="far fa-dot-circle"></i>Bienestar Estudiantil</a>
+				</li>
+			</ul>
+		</div>
+		<!-- / Menu items -->
+
+		<!-- Info contact -->
+		<div class="menu__info">
+			<div class="menu__contact">
+				<a href="#" class="menu__contact-location item5"><i class="fas fa-map-marker-alt"></i>Comandante Fernandez 755, Pcia.R. Sáez Peña, Chaco, Argentina</a>
+				<a href="#" class="menu__contact-phone item5"><i class="fas fa-phone"></i>+54 (0364) 4420137</a>
+			</div>
+
+			<div class="menu__socialMedia item5">
+				<i class="fab fa-facebook-f"></i>
+				<i class="fab fa-instagram"></i>
+				<i class="fab fa-twitter"></i>
+				<i class="fab fa-youtube"></i>
+			</div>
+		</div>
+		<!-- / Info contact -->
+	</div>
+	<!-- // Menu Responsive -->
 
 	<!-- Section: Navbar -->
 	<nav id="navbar">
@@ -49,6 +97,15 @@
 			<a href="" class="navbar--contact-item"><i class="far fa-user"></i>3644734901</a>
 			<a href="" class="navbar--contact-item"><i class="far fa-user"></i>uncaus@uncaus.edu.ar</a>
 		</div>
+		
+		<!-- Menu responsive -->
+		<a href="index.html" class="navbar--logo-responsive">
+			<img src="assets/images/preload.svg" alt="Logo UNCAus" class="navbar--logo-img">
+			<p>UNCAUS</p>
+		</a>
+
+		<i class="fas fa-bars icon-responsive"></i>
+		<!-- / Menu responsive -->
 	</nav>
 	<!-- // Section: Navbar -->
 
@@ -156,6 +213,36 @@
 				document.getElementById('preloader').style.visibility = 'hidden';
 				document.getElementById('preloader').style.opacity = '0';
 			}, 2800);
+
+			$('.icon-responsive').click(function() {
+				$("#menu__mobile").css('opacity', '1');
+				$("#menu__mobile").css('left', '0');
+
+				setTimeout(function() {
+					$('.item1').css('opacity', '1');
+				}, 500);
+				setTimeout(function() {
+					$('.item2').css('opacity', '1');
+				}, 1000);
+				setTimeout(function() {
+					$('.item3').css('opacity', '1');
+				}, 1500);
+				setTimeout(function() {
+					$('.item4').css('opacity', '1');
+				}, 2000);
+				setTimeout(function() {
+					$('.item5').css('opacity', '1');
+				}, 2500);
+			});
+			$('.fa-times').click(function() {
+				$("#menu__mobile").css('left', '-100%');
+				$("#menu__mobile").css('opacity', '0');
+				$(".item1").css('opacity', '0');
+				$(".item2").css('opacity', '0');
+				$(".item3").css('opacity', '0');
+				$(".item4").css('opacity', '0');
+				$(".item5").css('opacity', '0');
+			});
 		});
 	</script>
 </body>

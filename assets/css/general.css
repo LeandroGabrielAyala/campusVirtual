@@ -54,13 +54,20 @@ svg {
     padding: 20px;
     position: fixed;
     left: -100%;
+    opacity: 0;
     z-index: 10000;
+
+    transition: all .3s ease;
+}
+
+.icon-responsive, .menu__close {
+    cursor: pointer;
 }
 
 .menu__close {
     position: absolute;
     top: 2%;
-    left: 2%;
+    left: 5%;
 }
 .menu__close i {
     font-size: 2rem;
@@ -82,6 +89,12 @@ svg {
     justify-content: start;
     align-items: center;
 }
+
+.item1, .item2, .item3, .item4, .item5 {
+    opacity: 0;
+    transition: all .3s ease;
+}
+
 .menu__list-item a {
     color: var(--white-color);
     font-size: 2.5rem;
@@ -103,7 +116,7 @@ svg {
 
 .menu__info {
     position: absolute;
-    bottom: 15%;
+    bottom: 5%;
     left: 10%;
     width: auto;
     display: flex;
@@ -306,6 +319,7 @@ section#headerArea {
     margin: 0 0 15px 0;
     padding: 0;
     font-size: 2rem;
+    text-align: center;
 }
 
 .headerArea__content {
