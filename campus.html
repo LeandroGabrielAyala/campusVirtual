@@ -73,38 +73,15 @@
 	<!-- // Menu Responsive -->
 
 	<!-- Section: Navbar -->
-	<nav id="navbar">
-		<ul class="navbar--menu">
-			<li class="navbar--menu-item">
-				<a href="index.html">Inicio</a>
-			</li>
-			<li class="navbar--menu-item">
-				<a href="#">Menues</a>
-			</li>
-			<li class="navbar--menu-item">
-				<a href="#">Menues</a>
-			</li>
-			<li class="navbar--menu-item">
-				<a href="#">Menues</a>
-			</li>
-		</ul>
-		<div class="navbar--logo">
-			<a href="index.html" class="navbar--logo-content">
-				<img src="assets/images/logo.svg" alt="Logo UNCAus" class="navbar--logo-img">
-			</a>
-		</div>
-		<div class="navbar--contact">
-			<a href="" class="navbar--contact-item"><i class="far fa-user"></i>3644734901</a>
-			<a href="" class="navbar--contact-item"><i class="far fa-user"></i>uncaus@uncaus.edu.ar</a>
-		</div>
-		
+	<nav id="navbar">		
 		<!-- Menu responsive -->
-		<a href="index.html" class="navbar--logo-responsive">
+		<a href="index.html" class="navbar--logo">
 			<img src="assets/images/preload.svg" alt="Logo UNCAus" class="navbar--logo-img">
-			<p>UNCAUS</p>
-		</a>
+        </a>
+        
+        <p class="navbar--title">Campus Virtual</p>
 
-		<i class="fas fa-bars icon-responsive"></i>
+		<i class="fas fa-bars navbar--icon"></i>
 		<!-- / Menu responsive -->
 	</nav>
 	<!-- // Section: Navbar -->
@@ -124,45 +101,36 @@
 			<p><img src="assets/images/subtitle.svg" alt="Decoration UNCAS"></p>
 		</div>
 		<section id="areas">
-			<a href="area.html" class="areas--depto">
-				<p class="areas--link">SIU Guaraní</p>
-			</a>
-			<a href="area.html" class="areas--depto">
-				<p class="areas--link">SGA Cursos</p>
-			</a>
-			<a href="area.html" class="areas--depto">
-				<p class="areas--link">Mesas de Exámen</p>
-			</a>
-			<a href="area.html" class="areas--depto">
-				<p class="areas--link">Moodle</p>
-			</a>
-			<a href="area.html" class="areas--depto">
-				<p class="areas--link">UNCAus Virtual</p>
-			</a>
-			<a href="area.html" class="areas--depto">
-				<p class="areas--link">Administración</p>
-			</a>
-			<a href="area.html" class="areas--depto">
-				<p class="areas--link">Administración</p>
-			</a>
-			<a href="area.html" class="areas--depto">
-				<p class="areas--link">Administración</p>
-			</a>
-			<a href="area.html" class="areas--depto">
-				<p class="areas--link">Administración</p>
-			</a>
+			<div class="areas--depto">
+                <h3 class="areas--link">SIU Guaraní</h3>
+                <ul>
+                    <li><a href="#">Item</a></li>
+                    <li><a href="#">Item</a></li>
+                    <li><a href="#">Item</a></li>
+                    <li><a href="#">Item</a></li>
+                </ul>
+            </div>
+			<div class="areas--depto">
+                <h3 class="areas--link">SIU Guaraní</h3>
+                <ul>
+                    <li><a href="#">Item</a></li>
+                    <li><a href="#">Item</a></li>
+                    <li><a href="#">Item</a></li>
+                    <li><a href="#">Item</a></li>
+                </ul>
+            </div>
+			<div class="areas--depto">
+                <h3 class="areas--link">SIU Guaraní</h3>
+                <ul>
+                    <li><a href="#">Item</a></li>
+                    <li><a href="#">Item</a></li>
+                    <li><a href="#">Item</a></li>
+                    <li><a href="#">Item</a></li>
+                </ul>
+            </div>
 		</section>
 	</section>
 	<!-- // Section: Areas -->
-
-	<!-- Section: Otros Sitios -->
-	<section id="otrosSitios" class="triangle">
-		<img src="assets/images/siu.png" alt="Logo SIU Guaraní">
-		<img src="assets/images/moodle.png" alt="Logo Moodle">	
-		<img src="assets/images/virtual.png" alt="Logo UNCAUS Virtual">
-		<img src="assets/images/cursos.png" alt="Logo UNCAUS Cursos">
-	</section>
-	<!-- // Section: Otros Sitios -->
 
 	<!-- Section: Footer -->
 	<section id="footer">
@@ -181,7 +149,7 @@
 				document.getElementById('preloader').style.opacity = '0';
 			}, 2800);
 
-			$('.icon-responsive').click(function() {
+			$('.navbar--icon').click(function() {
 				$("#menu__mobile").css('opacity', '1');
 				$("#menu__mobile").css('left', '0');
 

@@ -49,56 +49,39 @@
     padding: 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(3, 200px);
+    grid-template-rows: auto;
     grid-gap: 20px;
 }
 
 .areas--depto {
+    box-shadow: 2px 4px 8px 2px rgba(var(--black-color-rgba), 0.15);
+}
+
+.areas--link {
     background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.85) 40%, rgba(var(--primary-color-rgba), 0.7)), url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg);
     background-size: 25rem;
-    font-size: 3rem;    
-    padding: 1rem;
-    border-radius: 7px;
-    box-shadow: 2px 4px 8px 2px rgba(var(--black-color-rgba), 0.15);
-    overflow: hidden;
-    position: relative;
+    padding: 1.5rem 1rem;
+    border-radius: 7px 7px 0 0;
+    text-align: left;
+    font-size: 1.5rem;
+    color: var(--white-color);
+    font-weight: 400;
     transition: all .3s ease;
 }
-.areas--depto:hover {
+.areas--link:hover {
     background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.9) 40%, rgba(var(--primary-color-rgba), 0.85)), url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg);
     background-size: 28rem;
 }
 
-.areas--depto:nth-child(2), .areas--depto:nth-child(6), .areas--depto:nth-child(7) {
-    background-image: linear-gradient(to right, rgba(var(--dos-rgb), 0.85) 40%, rgba(var(--dos-rgb), 0.7)), url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg);
+.areas--depto li {
+    border-bottom: 1.5px solid #d8d8d89e;
 }
-.areas--depto:nth-child(3), .areas--depto:nth-child(8) {
-    background-image: linear-gradient(to right, rgba(var(--tres-rgb), 0.85) 40%, rgba(var(--tres-rgb), 0.7)), url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg);
-}
-.areas--depto:nth-child(4), .areas--depto:nth-child(9) {
-    background-image: linear-gradient(to right, rgba(var(--cuatro-rgb), 0.85) 40%, rgba(var(--cuatro-rgb), 0.7)), url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg);
+.areas--depto li :last-child {
+    border-bottom: none;
 }
 
-.areas--depto:nth-child(2):hover, .areas--depto:nth-child(6):hover, .areas--depto:nth-child(7):hover {
-    background-image: linear-gradient(to right, rgba(var(--dos-rgb), 0.9) 40%, rgba(var(--dos-rgb), 0.85)), url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg);
-}
-.areas--depto:nth-child(3):hover, .areas--depto:nth-child(8):hover {
-    background-image: linear-gradient(to right, rgba(var(--tres-rgb), 0.9) 40%, rgba(var(--tres-rgb), 0.85)), url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg);
-}
-.areas--depto:nth-child(4):hover, .areas--depto:nth-child(9):hover {
-    background-image: linear-gradient(to right, rgba(var(--cuatro-rgb), 0.9) 40%, rgba(var(--cuatro-rgb), 0.85)), url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg);
-}
-
-.areas--link {
+.areas--depto li a {
     width: 100%;
-    text-align: center;
-    font-size: 1.5rem;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    color: var(--white-color);
-    font-weight: 400;
-    padding: 0;
-    margin: 0;
+    display: inline-block;
+    padding: 20px 10px;
 }
