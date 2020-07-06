@@ -76,6 +76,16 @@
     color: var(--white-color);
 }
 
+.areas--depto-list, .areas--depto-list:hover {
+    padding: 11px 9px;
+    background: #06b189 !important;
+    color: white;
+}
+.areas--depto-listItem {
+    background: #06b18963;
+    color: #036b53;
+}
+
 
 .areas--link {
     background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.85) 40%, rgba(var(--primary-color-rgba), 0.7)), url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg);
