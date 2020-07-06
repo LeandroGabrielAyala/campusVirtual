@@ -73,17 +73,14 @@
 	<!-- // Menu Responsive -->
 
 	<!-- Section: Navbar -->
-	<nav id="navbar">		
-		<!-- Menu responsive -->
+	<nav id="navbar">
 		<a href="index.html" class="navbar--logo">
 			<img src="assets/images/preload.svg" alt="Logo UNCAus" class="navbar--logo-img">
-        </a>
-        
+        </a>        
         <p class="navbar--title">Campus Virtual</p>
-
 		<i class="fas fa-bars navbar--icon"></i>
-		<!-- / Menu responsive -->
 	</nav>
+	<p class="navbar--icon-mobile"><i class="fas fa-bars"></i> MENU</p>
 	<!-- // Section: Navbar -->
 
 	<!-- Section: Header -->
@@ -102,30 +99,84 @@
 		</div>
 		<section id="areas">
 			<div class="areas--depto">
-                <h3 class="areas--link">SIU Guaraní</h3>
+                <h3 class="areas--link">Administración</h3>
                 <ul>
-                    <li><a href="#">Item</a></li>
-                    <li><a href="#">Item</a></li>
-                    <li><a href="#">Item</a></li>
-                    <li><a href="#">Item</a></li>
+                    <li><a href="#">Depto. de Compras</a></li>
+                    <li><a href="#">Depto. de Compras</a></li>
+                    <li><a href="#">Depto. de Compras</a></li>
+                    <li><a href="#">Depto. de Compras</a></li>
                 </ul>
             </div>
 			<div class="areas--depto">
-                <h3 class="areas--link">SIU Guaraní</h3>
+                <h3 class="areas--link">Administración</h3>
                 <ul>
-                    <li><a href="#">Item</a></li>
-                    <li><a href="#">Item</a></li>
-                    <li><a href="#">Item</a></li>
-                    <li><a href="#">Item</a></li>
+                    <li><a href="#">Depto. de Compras</a></li>
+                    <li><a href="#">Depto. de Compras</a></li>
+                    <li><a href="#">Depto. de Compras</a></li>
+                    <li><a href="#">Depto. de Compras</a></li>
                 </ul>
             </div>
 			<div class="areas--depto">
-                <h3 class="areas--link">SIU Guaraní</h3>
+                <h3 class="areas--link">Administración</h3>
                 <ul>
-                    <li><a href="#">Item</a></li>
-                    <li><a href="#">Item</a></li>
-                    <li><a href="#">Item</a></li>
-                    <li><a href="#">Item</a></li>
+                    <li><a href="#">Depto. de Compras</a></li>
+                    <li><a href="#">Depto. de Compras</a></li>
+                    <li><a href="#">Depto. de Compras</a></li>
+                    <li><a href="#">Depto. de Compras</a></li>
+                </ul>
+			</div>
+			<div class="areas--depto">
+                <h3 class="areas--link">Administración</h3>
+                <ul>
+                    <li><a href="#">Depto. de Compras</a></li>
+                    <li><a href="#">Depto. de Compras</a></li>
+                    <li><a href="#">Depto. de Compras</a></li>
+                    <li><a href="#">Depto. de Compras</a></li>
+                </ul>
+            </div>
+			<div class="areas--depto">
+                <h3 class="areas--link">Administración</h3>
+                <ul>
+                    <li><a href="#">Depto. de Compras</a></li>
+                    <li><a href="#">Depto. de Compras</a></li>
+                    <li><a href="#">Depto. de Compras</a></li>
+                    <li><a href="#">Depto. de Compras</a></li>
+                </ul>
+            </div>
+			<div class="areas--depto">
+                <h3 class="areas--link">Administración</h3>
+                <ul>
+                    <li><a href="#">Depto. de Compras</a></li>
+                    <li><a href="#">Depto. de Compras</a></li>
+                    <li><a href="#">Depto. de Compras</a></li>
+                    <li><a href="#">Depto. de Compras</a></li>
+                </ul>
+			</div>
+			<div class="areas--depto">
+                <h3 class="areas--link">Administración</h3>
+                <ul>
+                    <li><a href="#">Depto. de Compras</a></li>
+                    <li><a href="#">Depto. de Compras</a></li>
+                    <li><a href="#">Depto. de Compras</a></li>
+					<li><a href="#">Depto. de Compras</a></li>
+                </ul>
+            </div>
+			<div class="areas--depto">
+                <h3 class="areas--link">Administración</h3>
+                <ul>
+                    <li><a href="#">Depto. de Compras</a></li>
+                    <li><a href="#">Depto. de Compras</a></li>
+                    <li><a href="#">Depto. de Compras</a></li>
+                    <li><a href="#">Depto. de Compras</a></li>
+                </ul>
+            </div>
+			<div class="areas--depto">
+                <h3 class="areas--link">Administración</h3>
+                <ul>
+                    <li><a href="#">Depto. de Compras</a></li>
+                    <li><a href="#">Depto. de Compras</a></li>
+                    <li><a href="#">Depto. de Compras</a></li>
+                    <li><a href="#">Depto. de Compras</a></li>
                 </ul>
             </div>
 		</section>
@@ -169,6 +220,27 @@
 					$('.item5').css('opacity', '1');
 				}, 2500);
 			});
+			$('.navbar--icon-mobile').click(function() {
+				$("#menu__mobile").css('opacity', '1');
+				$("#menu__mobile").css('left', '0');
+
+				setTimeout(function() {
+					$('.item1').css('opacity', '1');
+				}, 500);
+				setTimeout(function() {
+					$('.item2').css('opacity', '1');
+				}, 1000);
+				setTimeout(function() {
+					$('.item3').css('opacity', '1');
+				}, 1500);
+				setTimeout(function() {
+					$('.item4').css('opacity', '1');
+				}, 2000);
+				setTimeout(function() {
+					$('.item5').css('opacity', '1');
+				}, 2500);
+			});
+			
 			$('.fa-times').click(function() {
 				$("#menu__mobile").css('left', '-100%');
 				$("#menu__mobile").css('opacity', '0');

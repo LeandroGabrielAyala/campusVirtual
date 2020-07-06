@@ -2,7 +2,32 @@
 @import "index.css";
 
 /* Media Queries */
-@media only screen and (max-width: 1160px) {}
+@media only screen and (max-width: 1200px) {
+    /* --- MENU --- */
+    #navbar {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    /* --- END MENU --- */
+
+    /* --- HEADER --- */
+    #header {
+        padding: 40px 50px;
+    }
+    #header h1 {
+        font-size: 2.5rem;
+    }
+    #header p {
+        width: 100%;
+        font-size: 1.1rem;
+    }
+    /* --- END HEADER --- */
+
+    /* --- AREAS --- */
+    #areas {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    /* --- END AREAS --- */
+}
 
 @media only screen and (max-width: 900px) {
     /* --- MENU RESPONSIVE --- */
@@ -28,7 +53,63 @@
     .menu__socialMedia i:first-child {
         margin-left: 0;
     }
-    /* --- MENU RESPONSIVE --- */
+    /* --- END MENU RESPONSIVE --- */
+
+    /* --- AREAS --- */
+    #areas {
+        grid-template-columns: 1fr 1fr;
+    }
+    /* --- END AREAS --- */
 }
 
-@media only screen and (max-width: 800px) {}
+@media only screen and (max-width: 650px) {
+    /* --- MENU --- */
+    #navbar {
+        grid-template-columns: 1fr 2fr;
+        padding: 10px 15px;
+        /* grid-template-areas: 
+        "titulo"
+        "logo nav"; */
+    }
+    .navbar--icon {
+        display: none !important;
+    }
+    .navbar--title {
+        font-size: 1.2rem;
+        justify-content: flex-end;
+        background-color: var(--white-color);
+        color: var(--primary-color);
+        border-radius: 30px;
+    }
+    .navbar--icon-mobile {
+        display: flex;
+    }
+    .navbar--icon-mobile i {
+        margin-right: 10px;
+    }
+    /* --- END MENU --- */
+
+    /* --- HEADER --- */
+    #header {
+        padding: 40px 20px;
+    }
+    #header h1 {
+        font-size: 2rem;
+    }
+    #header p {
+        font-size: 1rem;
+    }
+    #header a {
+        font-size: .9rem;
+    }
+    /* --- END HEADER --- */
+
+    /* --- AREAS --- */
+    #areas {
+        grid-template-columns: 1fr;
+    }
+    .container--areas-title h3 {
+        font-size: 2rem;
+    }
+    /* --- END AREAS --- */
+}

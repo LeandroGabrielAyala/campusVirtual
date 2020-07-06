@@ -26,6 +26,8 @@ html, body {
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    background-color: #e4e4e463;
 }
 
 a {
@@ -107,39 +109,52 @@ svg {
     margin: 0;
     background-color: var(--white-color);
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 2fr;
     grid-template-rows: 45px;
+    grid-template-areas: 
+    "logo titulo nav";
     grid-gap: 5px;
 }
 .navbar--logo {
     display: flex !important;
     justify-content: flex-start;
     align-items: center;
-
+    grid-area: logo;
 }
 .navbar--logo img {
-    width: 12%;
-}
-
-.navbar--icon {
-    display: flex !important;
-    justify-content: flex-end;
-    align-items: center;
-    font-size: 1.5rem;
-    color: var(--primary-color);
-    cursor: pointer;
+    width: 2.8em;
 }
 
 .navbar--title {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.3rem;
+    font-size: 1rem;
     text-transform: uppercase;
     font-weight: bolder;
     color: var(--white-color);
     background-color: var(--primary-color);
     border-radius: 30px;
+    grid-area: titulo;
+}
+
+.navbar--icon {
+    display: flex !important;
+    justify-content: flex-end;
+    align-items: center;
+    grid-area: nav;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.navbar--icon-mobile {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    cursor: pointer;
 }
 /* --------------- End Menu --------------- */
 
