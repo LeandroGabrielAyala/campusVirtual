@@ -11,6 +11,10 @@
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 	<!-- Google Font -->
 	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </head>
 <body>
 	<!-- Preloader -->
@@ -37,18 +41,18 @@
 		<div class="menu__items">
 			<ul class="menu__list">
 				<li class="menu__list-item item1">
-					<a href="#"><i class="far fa-dot-circle"></i>Académica</a>
+					<a href="#"><i class="far fa-dot-circle"></i>Item Menu</a>
 					<i class="far fa-plus"></i>
 				</li>
 				<li class="menu__list-item item2">
-					<a href="#"><i class="far fa-dot-circle"></i>Institucional</a>
+					<a href="#"><i class="far fa-dot-circle"></i>Item Menu</a>
 				</li>
 				<li class="menu__list-item item3">
-					<a href="#"><i class="far fa-dot-circle"></i>Estudiantes</a>
+					<a href="#"><i class="far fa-dot-circle"></i>Item Menu</a>
 					<i class="far fa-plus"></i>
 				</li>
 				<li class="menu__list-item item4">
-					<a href="#"><i class="far fa-dot-circle"></i>Bienestar Estudiantil</a>
+					<a href="#"><i class="far fa-dot-circle"></i>Item Menu</a>
 				</li>
 			</ul>
 		</div>
@@ -84,11 +88,11 @@
 	<!-- // Section: Navbar -->
 
 	<!-- Section: Header -->
-	<section id="header">
+	<!-- <section id="header">
 		<h1>Nuevo Campus Virtaul</h1>
 		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ut nisi facilis cumque repellendus maxime alias.</p>
 		<a href="#">Conoce más</a>
-	</section>
+	</section> -->
 	<!-- // Section: Header -->
 
 	<!-- Section: Areas -->
@@ -97,26 +101,85 @@
 			<h3>Áreas</h3>
 			<p><img src="assets/images/subtitle.svg" alt="Decoration UNCAS"></p>
 		</div>
+
+		<!-- <div class="areas--depto">
+			<h3 class="areas--link">Principales</h3>
+			<ul>
+				<li><a href="https://guarani3.uncaus.edu.ar/guarani/" target="_blank">SIU Guaraní</a></li>
+				<li><a href="https://moodle.uncaus.edu.ar/" target="_blank">Moodle</a></li>
+				<li><a href="https://mesas.uncaus.edu.ar/auth/login" target="_blank">Mesas de Exámenes</a></li>
+				<li><a href="http://aulero.uncaus.edu.ar/day.php?day=08&month=07&year=2020" target="_blank">Aulero</a></li>
+				<li><a href="https://equivalencias.uncaus.edu.ar/auth/login" target="_blank">Equivalencias</a></li>
+				<li><a href="https://uncaus.edu.ar/index.php/estudiantes/horarios-de-clase" target="_blank">Horario de Clases</a></li>
+			</ul>
+		</div> -->
+
 		<section id="areas">
 			<div class="areas--depto">
-                <h3 class="areas--link">Institucional</h3>
-                <ul>
-					<li><a href="https://uncaus.edu.ar/index.php/institucional/institucional" target="_blank">Autoridades</a></li>
-					<li><a href="https://bolsadetrabajo.uncaus.edu.ar/auth/login" target="_blank">Bolsa de Trabajo</a></li>
-                    <li><a href="http://seia.uncaus.edu.ar/" target="_blank">Impacto Ambiental</a></li>
-					<li class="areas--depto-list">Formularios:</li>
-                    <li><a href="#" target="_blank" class="areas--depto-listItem">Uso del Salón de Actos</a></li>
-					<li><a href="#" target="_blank" class="areas--depto-listItem">Productos para Difusión Institucional</a></li>
+                <h3 class="areas--link" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Rectorado</h3>
+                <ul id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#areas">
+					<li><a href="#" target="_blank">Item</a></li>
+					<li><a href="#" target="_blank">Item</a></li>
+					<li><a href="#" target="_blank">Item</a></li>
+					<li><a href="#" target="_blank">Item</a></li>
                 </ul>
 			</div>
 			<div class="areas--depto">
-                <h3 class="areas--link">Académica</h3>
+                <h3 class="areas--link">Secretaría: Bienestar Estudiantil</h3>
                 <ul>
-					<li><a href="http://posgrado.uncaus.edu.ar/" target="_blank">Carreras Posgrado</a></li>
-					<li><a href="http://aulero.uncaus.edu.ar/day.php?day=06&month=07&year=2020" target="_blank">Distribución de Aulas</a></li>
-					<li><a href="https://uncaus.edu.ar/index.php/academica/biblioteca" target="_blank">Biblioteca</a></li>
+					<li><a href="#" target="_blank">Item</a></li>
+					<li><a href="#" target="_blank">Item</a></li>
+					<li><a href="#" target="_blank">Item</a></li>
+					<li class="areas--depto-list">Item:</li>
+                    <li><a href="#" target="_blank" class="areas--depto-listItem">Sub Item</a></li>
+					<li><a href="#" target="_blank" class="areas--depto-listItem">Sub Item</a></li>
                 </ul>
-            </div>
+			</div>
+			<div class="areas--depto">
+                <h3 class="areas--link">Secretaría: Académica</h3>
+                <ul>
+					<li><a href="#" target="_blank">Item</a></li>
+					<li><a href="#" target="_blank">Item</a></li>
+					<li class="areas--depto-list">Ejemplo:</li>
+                    <li><a href="#" target="_blank" class="areas--depto-listItem">Alumnos</a></li>
+					<li><a href="#" target="_blank" class="areas--depto-listItem">Docentes</a></li>
+					<li><a href="#" target="_blank">Item</a></li>
+					<li><a href="#" target="_blank">Item</a></li>
+                </ul>
+			</div>
+			<div class="areas--depto">
+                <h3 class="areas--link">Secretaría: Cooperación y Servicios</h3>
+                <ul>
+					<li><a href="#" target="_blank">Item</a></li>
+					<li><a href="#" target="_blank">Item</a></li>
+					<li><a href="#" target="_blank">Item</a></li>
+					<li><a href="#" target="_blank">Item</a></li>
+					<li><a href="#" target="_blank">Item</a></li>
+					<li><a href="#" target="_blank">Item</a></li>
+                </ul>
+			</div>
+			<div class="areas--depto">
+                <h3 class="areas--link">Secretaría: Administración</h3>
+                <ul>
+					<li><a href="#" target="_blank">Item</a></li>
+					<li><a href="#" target="_blank">Item</a></li>
+					<li><a href="#" target="_blank">Item</a></li>
+					<li><a href="#" target="_blank">Item</a></li>
+					<li><a href="#" target="_blank">Item</a></li>
+					<li><a href="#" target="_blank">Item</a></li>
+                </ul>
+			</div>
+			<div class="areas--depto">
+                <h3 class="areas--link">Secretaría: Investigación, Ciencia y Ténica</h3>
+                <ul>
+					<li><a href="#" target="_blank">Item</a></li>
+					<li><a href="#" target="_blank">Item</a></li>
+					<li><a href="#" target="_blank">Item</a></li>
+					<li><a href="#" target="_blank">Item</a></li>
+					<li><a href="#" target="_blank">Item</a></li>
+					<li><a href="#" target="_blank">Item</a></li>
+                </ul>
+			</div>
 		</section>
 	</section>
 	<!-- // Section: Areas -->
@@ -130,7 +193,10 @@
 	<!-- // Section: Footer -->
 
 	<!-- Scripts -->
-	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
 	<script>
 		$(document).ready(function () {
 			setTimeout(function() {
