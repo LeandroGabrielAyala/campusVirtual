@@ -54,13 +54,13 @@
 }
 
 .areas--depto ul {
-    background-color: var(--white-color);
+    background-color: #199bd514;
     border-radius: 0 0 5px 5px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .areas--depto ul li a, .areas--depto ul li a:visited, .areas--depto ul li:hover a {
-    color: #0c5677;
+    color: #0e6890;
     font-weight: 400;
 }
 .areas--depto ul li {
@@ -84,33 +84,36 @@
 }
 
 .areas--link {
-    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.85) 40%, rgba(var(--primary-color-rgba), 0.7)), url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg);
+    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 50%, rgba(var(--primary-color-rgba), 0.6)), url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg);
     background-size: 25rem;
     padding: 0.8rem 1rem 1.5rem;
-    border-radius: 5px;
+    /* border-radius: 3px; */
     text-align: left;
     font-size: 1.3rem;
     color: var(--white-color);
     font-weight: 400;
     cursor: pointer;
+    text-shadow: 2px 2px 2px rgb(25, 120, 165);
     transition: all .3s ease;
 }
 .areas--link:hover {
-    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.9) 40%, rgba(var(--primary-color-rgba), 0.85)), url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg);
+    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 60%, rgba(var(--primary-color-rgba), 0.6)), url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg);
     background-size: 28rem;
 }
 
 .areas--link span {			
-    font-size: 1rem;
+    font-size: .9rem;
     line-height: 2.6;
     background: var(--white-color);
     color: var(--primary-color);
-    padding: 4px 8px;
+    padding: 8px 8px 4px;
     border-radius: 15px;
+    font-weight: 600;
+    text-shadow: none;
 }
 
 .areas--depto li {
-    border-bottom: 1.5px solid #d8d8d89e;
+    border-bottom: 1.5px solid #1380b13d;
 }
 .areas--depto li:last-child {
     border-bottom: none;
