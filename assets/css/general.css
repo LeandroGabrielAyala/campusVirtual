@@ -27,7 +27,7 @@ html, body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
-    background-color: #e4e4e463;
+    background-color: #40abd30f !important;
 }
 
 a {

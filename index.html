@@ -98,21 +98,40 @@
 	<!-- Section: Areas -->
 	<section class="container--areas">
 		<div class="container--areas-title">
-			<h3>Áreas</h3>
+			<h3>Principales</h3>
 			<p><img src="assets/images/subtitle.svg" alt="Decoration UNCAS"></p>
 		</div>
 
-		<!-- <div class="areas--depto w-100 mb-3">
-			<h3 class="areas--link">Principales</h3>
-			<ul>
-				<li><a href="https://guarani3.uncaus.edu.ar/guarani/" target="_blank">SIU Guaraní</a></li>
-				<li><a href="https://moodle.uncaus.edu.ar/" target="_blank">Moodle</a></li>
-				<li><a href="https://mesas.uncaus.edu.ar/auth/login" target="_blank">Mesas de Exámenes</a></li>
-				<li><a href="http://aulero.uncaus.edu.ar/day.php?day=08&month=07&year=2020" target="_blank">Aulero</a></li>
-				<li><a href="https://equivalencias.uncaus.edu.ar/auth/login" target="_blank">Equivalencias</a></li>
-				<li><a href="https://uncaus.edu.ar/index.php/estudiantes/horarios-de-clase" target="_blank">Horario de Clases</a></li>
-			</ul>
-		</div> -->
+		<div class="container">
+			<div class="row principal">
+				<div class="col-lg-4 col-md-6 col-sm-12 p-1">
+					<a href="https://guarani3.uncaus.edu.ar/guarani/" target="_blank" class="principal-item">SIU Guaraní</a>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12 p-1">
+					<a href="https://moodle.uncaus.edu.ar/" target="_blank" class="principal-item">Moodle</a>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12 p-1">
+					<a href="https://mesas.uncaus.edu.ar/auth/login" target="_blank" class="principal-item">Mesas de Exámenes</a>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12 p-1">
+					<a href="http://aulero.uncaus.edu.ar/day.php?day=08&month=07&year=2020" target="_blank" class="principal-item">Aulero</a>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12 p-1">
+					<a href="https://equivalencias.uncaus.edu.ar/auth/login" target="_blank" class="principal-item">Equivalencias</a>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12 p-1">
+					<a href="https://uncaus.edu.ar/index.php/estudiantes/horarios-de-clase" target="_blank" class="principal-item">Horario de Clases</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="container--areas">
+		<div class="container--areas-title">
+			<h3>Áreas</h3>
+			<p><img src="assets/images/subtitle.svg" alt="Decoration UNCAS"></p>
+		</div>
+		
 		<div class="container p-0">
 			<div id="areas" class="row d-flex justify-content-between align-items-start">
 				<div class="areas-col1 col-sm-12 col-md-6 col-lg-4 d-flex flex-column justify-content-start align-items-start">
@@ -223,6 +242,31 @@
 		</div>
 	</section>
 	<!-- // Section: Footer -->
+
+	<!-- Styles -->
+	<style>
+		.principal {
+			border: 2.5px solid var(--primary-color);
+			background-color: var(--white-color);
+			padding: 10px;
+			border-radius: 5px;
+		}
+
+		.principal-item, .principal-item:visited, .principal-item:active {
+			background: var(--primary-color);
+			border: 1px solid var(--primary-color);
+			padding: 10px;
+    		display: block;
+			border-radius: 5px;
+			color: var(--white-color);
+			transition: all .3s ease;
+		}
+
+		.principal-item:hover {
+			color: var(--primary-color);
+			background-color: var(--white-color);
+		}
+	</style>
 
 	<!-- Scripts -->
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
