@@ -99,10 +99,9 @@
 	<section class="container--areas">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="container--areas-title">
-                        <h3>Principales</h3>
-                        <p><img src="assets/images/subtitle.svg" alt="Decoration UNCAS"></p>
+                        <h3 class="m-0">Principales</h3>
                     </div>
                     <div class="principal">
                         <div class="col-sm-12 p-1">
@@ -126,14 +125,13 @@
                     </div>
                 </div>
 
-                <div class="col-lg-8 col-md-6 col-sm-12 p-0">
+                <div class="col-lg-9 col-md-6 col-sm-12 p-0">
                     <div class="container--areas-title">
-                        <h3>Áreas</h3>
-                        <p><img src="assets/images/subtitle.svg" alt="Decoration UNCAS"></p>
+                        <h3 class="m-0">Áreas</h3>
                     </div>
                     
                     <div id="areas" class="row d-flex justify-content-center align-items-start">
-                        <div class="areas-col1 col-sm-12 col-lg-6 d-flex flex-column justify-content-start align-items-start pr-0">
+                        <div class="areas-col1 col-sm-12 col-lg-6 d-flex flex-column justify-content-start align-items-start px-2">
                             <div class="areas--depto w-100 mb-3">
                                 <h3 class="areas--link" data-toggle="collapse" data-target="#collapseRectorado" aria-expanded="true" aria-controls="collapseRectorado"><span>Área:</span><br>Rectorado</h3>
                                 <ul id="collapseRectorado" class="collapse" aria-labelledby="headingRectorado" data-parent="#areas">
@@ -188,7 +186,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="areas-col2 col-sm-12 col-lg-6 d-flex flex-column justify-content-start align-items-start pr-0">
+                        <div class="areas-col2 col-sm-12 col-lg-6 d-flex flex-column justify-content-start align-items-start px-2">
                             <div class="areas--depto w-100 mb-3">
                                 <h3 class="areas--link" data-toggle="collapse" data-target="#collapseISSUNCAUS" aria-expanded="true" aria-controls="collapseISSUNCAUS"><span>Área:</span><br>ISSUNCAUS</h3>
                                 <ul id="collapseISSUNCAUS" class="collapse" aria-labelledby="headingISSUNCAUS" data-parent="#areas">
@@ -231,15 +229,6 @@
                 </div>
             </div>
         </div>
-
-
-
-
-
-		
-
-
-
 	</section>
 	<!-- // Section: Areas -->
 
@@ -253,12 +242,31 @@
 
 	<!-- Styles -->
 	<style>
+        #areas {
+            padding: 17px 1px;
+            background: white;
+            border: 2px solid var(--primary-color);
+        }
+        .container--areas-title h3 {
+            color: #ffffff;
+            margin: 0 0 10px 0;
+            padding: 0;
+            font-size: 1.3rem;
+        }
+        .container--areas-title {
+            margin: 50px 0 0px;
+            padding: 15px 0;
+            width: 100%;
+            text-align: center;
+            background: var(--primary-color);
+            border-radius: 5px 5px 0 0;
+        }
 		.principal {
-			border: 2.5px solid var(--primary-color);
-			background-color: var(--white-color);
-			padding: 10px;
-			border-radius: 5px;
-		}
+            border: 2.5px solid var(--primary-color);
+            background-color: var(--white-color);
+            padding: 10px 4px;
+            border-radius: 0px 0px 5px 5px;
+        }
 
 		.principal-item, .principal-item:visited, .principal-item:active {
 			background: var(--primary-color);
