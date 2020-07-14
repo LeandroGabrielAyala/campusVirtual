@@ -69,7 +69,6 @@
 }
 
 .areas--depto ul li {
-    border-bottom: 1.5px solid #1380b13d;
     transition: all .3s ease;
 }
 .areas--depto ul li:last-child {
@@ -77,7 +76,7 @@
     border-radius: 0 0 5px 5px;
 }
 .areas--depto ul li:hover {
-    background-color: #dededeba;
+    background-color: #d7effb;
 }
 
 .areas--depto ul li a, .areas--depto ul li a:visited, .areas--depto ul li:hover a {
@@ -146,6 +145,10 @@
     border-right: 1px solid var(--franja) !important;
 }
 
+[color="franja-list"] li {
+    border-bottom: 1px solid var(--franja);
+}
+
 [color="franja-list"] a {
     color: var(--franja) !important;
 }
@@ -168,8 +171,38 @@
     border-right: 1px solid var(--fuses) !important;
 }
 
+[color="fuses-list"] li {
+    border-bottom: 1px solid var(--fuses);
+}
+
 [color="fuses-list"] a {
     color: var(--fuses) !important;
 }
 /* End Color FUSES */
+
+/* Color Cooperacion */
+[color="cooperacion"] {
+    background-image: linear-gradient(to right, rgba(var(--cooperacion-rgba), 0.7) 60%, rgba(var(--cooperacion-rgba), 0.6)), url('../images/cooperacion.png');
+    text-shadow: 2px 2px 2px var(--cooperacion);
+}
+[color="cooperacion"]:hover {
+    background-image: linear-gradient(to right, rgba(var(--cooperacion-rgba), 0.8) 60%, rgba(var(--cooperacion-rgba), 0.6)), url('../images/cooperacion.png');
+}
+[color="cooperacion"] span {
+    color: var(--cooperacion);
+}
+[color="cooperacion-list"] {
+    border-bottom: 1px solid var(--cooperacion) !important;
+    border-left: 1px solid var(--cooperacion) !important;
+    border-right: 1px solid var(--cooperacion) !important;
+}
+
+[color="cooperacion-list"] li {
+    border-bottom: 1px solid var(--cooperacion);
+}
+
+[color="cooperacion-list"] a {
+    color: var(--cooperacion) !important;
+}
+/* End Color Cooperacion */
 
