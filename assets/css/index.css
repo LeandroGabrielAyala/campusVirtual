@@ -105,14 +105,16 @@
 }
 
 .areas--link span {			
-    font-size: .9rem;
-    line-height: 2.6;
+    font-size: .85rem;
+    line-height: 1.5;
     background: var(--white-color);
     color: var(--primary-color);
-    padding: 8px 8px 4px;
-    border-radius: 15px;
+    padding: 7px 10px 3px;
+    border-radius: 30px;
     font-weight: 600;
     text-shadow: none;
+    margin-bottom: 15px;
+    display: inline-block;
 }
 
 .areas--depto li {
