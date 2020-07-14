@@ -2,17 +2,15 @@
     --primary-color: #199bd5;
     --primary-color-rgba: 25, 155, 213;
     --secundary-color: #50a72c;
-    --secundary-color-rgba: 80, 167, 44;
     --white-color: #ffffff;
     --black-color: #000000;
     --black-color-rgba: 0, 0, 0;
-    --decoration-color: #c7c7c7;
-    --title-color: #353535;
 
-    /* Color RGB */
-    --dos-rgb: 255, 99, 71;
-    --tres-rgb: 71, 255, 115;
-    --cuatro-rgb: 164, 71, 255;
+    /* Color por Areas */
+    --franja: #4d0018;
+    --franja-rgba: 79, 0, 25;
+    --fuses: #0b3422;
+    --fuses-rgba: 11, 52, 34;
 }
 
 *, *::before, *::after {
@@ -112,7 +110,7 @@ svg {
     padding: 15px 50px;
     margin: 0;
     background-color: var(--white-color);
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 5px rgba(var(--black-color-rgba), 0.2);
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
     grid-template-rows: 35px;
