@@ -213,7 +213,7 @@
     text-shadow: 2px 2px 2px #044caf;
 }
 [color="sicyt"]:hover {
-    background-image: linear-gradient(to right, rgba(var(--sicyt-rgba), 0.95) 60%, rgba(var(--sicyt-rgba), 0.6)), url('../images/sicyt.png');
+    background-image: linear-gradient(to right, rgba(var(--sicyt-rgba), 0.85) 60%, rgba(var(--sicyt-rgba), 0.6)), url('../images/sicyt.png');
 }
 [color="sicyt"] span {
     color: var(--sicyt);
