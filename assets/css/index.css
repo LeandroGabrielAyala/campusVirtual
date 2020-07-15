@@ -15,11 +15,12 @@
 }
 
 .container--areas-title h3 {
-    letter-spacing: 4px;
+    letter-spacing: 5px;
     color: #ffffff;
     margin: 0 0 10px 0;
     padding: 0;
     font-size: 1rem;
+    text-shadow: 2px 2px 2px rgb(25, 120, 165);
 }
 /* ----------------- END CONTAINER AREA ----------------- */
 
@@ -205,4 +206,108 @@
     color: var(--cooperacion) !important;
 }
 /* End Color Cooperacion */
+
+/* Color SICyT */
+[color="sicyt"] {
+    background-image: linear-gradient(to right, rgba(var(--sicyt-rgba), .8) 55%, rgba(var(--sicyt-rgba), 0.6)), url('../images/sicyt.png');
+    text-shadow: 2px 2px 2px #044caf;
+}
+[color="sicyt"]:hover {
+    background-image: linear-gradient(to right, rgba(var(--sicyt-rgba), 0.95) 60%, rgba(var(--sicyt-rgba), 0.6)), url('../images/sicyt.png');
+}
+[color="sicyt"] span {
+    color: var(--sicyt);
+}
+[color="sicyt-list"] {
+    border-bottom: 1px solid var(--sicyt) !important;
+    border-left: 1px solid var(--sicyt) !important;
+    border-right: 1px solid var(--sicyt) !important;
+}
+
+[color="sicyt-list"] li {
+    border-bottom: 1px solid var(--sicyt);
+}
+
+[color="sicyt-list"] a {
+    color: var(--sicyt) !important;
+}
+/* End Color SICyT */
+
+/* Color Bienestar */
+[color="bienestar"] {
+    background-image: linear-gradient(to right, rgba(var(--bienestar-rgba), .7) 45%, rgba(var(--bienestar-rgba), 0.6)), url(../images/bienestar.png);
+    text-shadow: 2px 2px 2px var(--bienestar);
+}
+[color="bienestar"]:hover {
+    background-image: linear-gradient(to right, rgba(var(--bienestar-rgba), .85) 55%, rgba(var(--bienestar-rgba), 0.6)), url('../images/bienestar.png');
+}
+[color="bienestar"] span {
+    color: var(--bienestar);
+}
+[color="bienestar-list"] {
+    border-bottom: 1px solid var(--bienestar) !important;
+    border-left: 1px solid var(--bienestar) !important;
+    border-right: 1px solid var(--bienestar) !important;
+}
+
+[color="bienestar-list"] li {
+    border-bottom: 1px solid var(--bienestar);
+}
+
+[color="bienestar-list"] a {
+    color: var(--bienestar) !important;
+}
+/* End Color Bienestar */
+
+/* Color Administracion */
+[color="administracion"] {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75) 47%, rgba(64, 64, 64, 0.6)), url(../images/administracion.png);
+    text-shadow: 2px 2px 2px #00000030;
+}
+[color="administracion"]:hover {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8) 50%, rgba(64, 64, 64, 0.6)), url(../images/administracion.png);
+}
+[color="administracion"] span {
+    color: black !important;
+}
+[color="administracion-list"] {
+    border-bottom: 1px solid black !important;
+    border-left: 1px solid black !important;
+    border-right: 1px solid black !important;
+}
+
+[color="administracion-list"] li {
+    border-bottom: 1px solid black;
+}
+
+[color="administracion-list"] a {
+    color: black !important;
+}
+/* End Color Administracion */
+
+/* Color Academica */
+[color="academica"] {
+    background-image: linear-gradient(to right, rgba(var(--academica-rgba), .85) 50%, rgba(var(--academica-rgba), 0.6)), url(../images/academica.png);
+    text-shadow: 2px 2px 2px var(--academica);
+}
+[color="academica"]:hover {
+    background-image: linear-gradient(to right, rgba(var(--academica-rgba), .9) 55%, rgba(var(--academica-rgba), 0.6)), url('../images/academica.png');
+}
+[color="academica"] span {
+    color: var(--academica);
+}
+[color="academica-list"] {
+    border-bottom: 1px solid var(--academica) !important;
+    border-left: 1px solid var(--academica) !important;
+    border-right: 1px solid var(--academica) !important;
+}
+
+[color="academica-list"] li {
+    border-bottom: 1px solid var(--academica);
+}
+
+[color="academica-list"] a {
+    color: var(--academica) !important;
+}
+/* End Color Academica */
 

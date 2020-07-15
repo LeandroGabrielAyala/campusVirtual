@@ -13,6 +13,13 @@
     --fuses-rgba: 11, 52, 34;
     --cooperacion: #b17797;
     --cooperacion-rgba: 140, 143, 253;
+    --sicyt: #0467f1;
+    --sicyt-rgba: 6, 112, 250;
+    --bienestar: #1d755d;
+    --bienestar-rgba: 16, 120, 96;
+    --academica: #135f97;
+    --academica-rgba: 19, 95, 151
+        
 }
 
 *, *::before, *::after {
