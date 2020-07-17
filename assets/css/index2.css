@@ -1,0 +1,212 @@
+/* ----------------- CONTAINER AREA ----------------- */
+.container--areas {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 35px;
+}
+
+.container--areas-title {
+    margin: 50px 0 0px;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    background: var(--primary-color);
+    border-radius: 5px 5px 0 0;
+}
+
+.container--areas-title h3 {
+    letter-spacing: 5px;
+    color: #ffffff;
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 1rem;
+    text-shadow: 2px 2px 2px rgb(25, 120, 165);
+}
+/* ----------------- END CONTAINER AREA ----------------- */
+
+/* ----------------- DESTACADOS ----------------- */
+.principal {
+    border: 2px solid var(--primary-color);
+    background-color: var(--white-color);
+    padding: 10px 4px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 3px 3px 7px 0px rgb(25, 155, 213, .3);
+}
+
+.principal-item, .principal-item:visited, .principal-item:active {
+    color: var(--primary-color);
+    background-color: var(--white-color);
+    border: 1px solid var(--primary-color);
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+    transition: all .3s ease;
+}
+
+.principal-item:hover {
+    box-shadow: 4px 5px 12px #199bd5a8;
+    background: var(--primary-color);
+    color: white;
+}
+/* ----------------- END DESTACADOS ----------------- */
+
+#areas {
+    width: 100%;
+    margin: 0 0 150px 0;
+    padding: 17px 4px 0;
+    background: white;
+    border: 2px solid var(--primary-color);
+    border-radius: 0 0 5px 5px;
+    box-shadow: 3px 3px 7px 0px rgb(25, 155, 213, .3);
+}
+
+.areas--depto ul {
+    background-color: #199bd514;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-bottom: 2px solid var(--primary-color);
+    border-left: 2px solid var(--primary-color);
+    border-right: 2px solid var(--primary-color);
+}
+
+.areas--depto ul li {
+    transition: all .3s ease;
+}
+.areas--depto ul li:last-child {
+    border-bottom: none;
+    border-radius: 0 0 5px 5px;
+}
+.areas--depto ul li:hover {
+    background-color: #d7effb;
+}
+
+.areas--depto ul li a, .areas--depto ul li a:visited, .areas--depto ul li:hover a {
+    color: #0e6890;
+    font-weight: 400;
+    width: 100%;
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.areas--depto-list, .areas--depto-list:hover {
+    padding: 11px 9px;
+    background: #06b189 !important;
+    color: white;
+}
+.areas--depto-listItem {
+    background: #06b18963;
+    color: #036b53;
+}
+
+.areas--link {
+    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 50%, rgba(var(--primary-color-rgba), 0.6))/*, url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg)*/;
+    background-size: 27rem;
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding: 0.8rem 1rem 1.5rem;
+    text-align: left;
+    font-size: 1.3rem;
+    color: var(--white-color);
+    font-weight: 400;
+    cursor: pointer;
+    text-shadow: 2px 2px 2px rgb(25, 120, 165);
+    transition: all .3s ease;
+}
+.areas--link:hover {
+    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 60%, rgba(var(--primary-color-rgba), 0.6))/*, url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg)*/;
+    background-size: 29rem;
+}
+.areas--link span {			
+    font-size: .85rem;
+    line-height: 1.5;
+    background: var(--white-color);
+    color: var(--primary-color);
+    padding: 7px 10px 3px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-shadow: none;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+/* Color FRANJA */
+[color="franja"] {
+    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 40%, rgba(var(--primary-color-rgba), 0.6)), url('../images/franja.png');
+}
+[color="franja"]:hover {
+    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 60%, rgba(var(--primary-color-rgba), 0.6)), url('../images/franja.png');
+}
+/* End Color FRANJA */
+
+/* Color FUSES */
+[color="fuses"] {
+    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 40%, rgba(var(--primary-color-rgba), 0.6)), url('../images/fuses.png');
+}
+[color="fuses"]:hover {
+    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 60%, rgba(var(--primary-color-rgba), 0.6)), url('../images/fuses.png');
+}
+/* End Color FUSES */
+
+/* Color Cooperacion */
+[color="cooperacion"] {
+    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 40%, rgba(var(--primary-color-rgba), 0.6)), url('../images/cooperacion.png');
+}
+[color="cooperacion"]:hover {
+    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 50%, rgba(var(--primary-color-rgba), 0.6)), url('../images/cooperacion.png');
+}
+/* End Color Cooperacion */
+
+/* Color SICyT */
+[color="sicyt"] {
+    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 40%, rgba(var(--primary-color-rgba), 0.6)), url('../images/sicyt.png');
+}
+[color="sicyt"]:hover {
+    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 50%, rgba(var(--primary-color-rgba), 0.6)), url('../images/sicyt.png');
+}
+/* End Color SICyT */
+
+/* Color Bienestar */
+[color="bienestar"] {
+    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), .95) 40%, rgba(var(--primary-color-rgba), 0.6)), url(../images/bienestar.png);
+}
+[color="bienestar"]:hover {
+    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), .95) 50%, rgba(var(--primary-color-rgba), 0.6)), url('../images/bienestar.png');
+}
+/* End Color Bienestar */
+
+/* Color Administracion */
+[color="administracion"] {
+    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 40%, rgba(var(--primary-color-rgba), 0.6)), url(../images/administracion.png);
+}
+[color="administracion"]:hover {
+    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 50%, rgba(var(--primary-color-rgba), 0.6)), url(../images/administracion.png);
+}
+/* End Color Administracion */
+
+/* Color Academica */
+[color="academica"] {
+    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), .95) 40%, rgba(var(--primary-color-rgba), 0.6)), url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg);
+}
+[color="academica"]:hover {
+    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), .95) 50%, rgba(var(--primary-color-rgba), 0.6)), url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg);
+}
+/* End Color Academica */
+
+/* Color DeptoCBA */
+[color="deptoCBA"] {
+    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 40%, rgba(var(--primary-color-rgba), 0.6));
+}
+[color="deptoCBA"]:hover {
+    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 50%, rgba(var(--primary-color-rgba), 0.6));
+}
+/* End Color DeptoCBA */
+
+/* Color DeptoCSH */
+[color="deptoCSH"] {
+    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 40%, rgba(var(--primary-color-rgba), 0.6));
+}
+[color="deptoCSH"]:hover {
+    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 50%, rgba(var(--primary-color-rgba), 0.6));
+}
+/* End Color DeptoCSH */
+
