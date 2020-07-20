@@ -70,10 +70,11 @@
 }
 
 .areas--depto ul li {
+    border-bottom: 1px solid var(--primary-color);
     transition: all .3s ease;
 }
 .areas--depto ul li:last-child {
-    border-bottom: none;
+    border-bottom: none !important;
     border-radius: 0 0 5px 5px;
 }
 .areas--depto ul li:hover {
@@ -146,8 +147,9 @@
     border-right: 1px solid var(--franja) !important;
 }
 [color="franja-list"] li {
-    border-bottom: 1px solid var(--franja);
+    border-bottom: 1px solid var(--franja) !important;
 }
+
 [color="franja-list"] a {
     color: var(--franja) !important;
 }
@@ -170,8 +172,9 @@
     border-right: 1px solid var(--fuses) !important;
 }
 [color="fuses-list"] li {
-    border-bottom: 1px solid var(--fuses);
+    border-bottom: 1px solid var(--fuses) !important;
 }
+
 [color="fuses-list"] a {
     color: var(--fuses) !important;
 }
@@ -194,8 +197,9 @@
     border-right: 1px solid var(--cooperacion) !important;
 }
 [color="cooperacion-list"] li {
-    border-bottom: 1px solid var(--cooperacion);
+    border-bottom: 1px solid var(--cooperacion) !important;
 }
+
 [color="cooperacion-list"] a {
     color: var(--cooperacion) !important;
 }
@@ -203,11 +207,11 @@
 
 /* Color SICyT */
 [color="sicyt"] {
-    background-image: linear-gradient(to right, rgba(var(--sicyt-rgba), .8) 55%, rgba(var(--sicyt-rgba), 0.6)), url('../images/sicyt.png');
+    background-image: linear-gradient(to right, rgba(var(--sicyt-rgba), .95) 55%, rgba(var(--sicyt-rgba), 0.6)), url('../images/sicyt.png');
     text-shadow: 2px 2px 2px #023882;
 }
 [color="sicyt"]:hover {
-    background-image: linear-gradient(to right, rgba(var(--sicyt-rgba), 0.85) 60%, rgba(var(--sicyt-rgba), 0.6)), url('../images/sicyt.png');
+    background-image: linear-gradient(to right, rgba(var(--sicyt-rgba), 0.95) 60%, rgba(var(--sicyt-rgba), 0.6)), url('../images/sicyt.png');
 }
 [color="sicyt"] span {
     color: var(--sicyt);
@@ -218,8 +222,9 @@
     border-right: 1px solid var(--sicyt) !important;
 }
 [color="sicyt-list"] li {
-    border-bottom: 1px solid var(--sicyt);
+    border-bottom: 1px solid var(--sicyt) !important;
 }
+
 [color="sicyt-list"] a {
     color: var(--sicyt) !important;
 }
@@ -227,11 +232,11 @@
 
 /* Color Bienestar */
 [color="bienestar"] {
-    background-image: linear-gradient(to right, rgba(var(--bienestar-rgba), .7) 45%, rgba(var(--bienestar-rgba), 0.6)), url(../images/bienestar.png);
+    background-image: linear-gradient(to right, rgba(var(--bienestar-rgba), .95) 45%, rgba(var(--bienestar-rgba), 0.6)), url(../images/bienestar.png);
     text-shadow: 2px 2px 2px #104234;
 }
 [color="bienestar"]:hover {
-    background-image: linear-gradient(to right, rgba(var(--bienestar-rgba), .85) 55%, rgba(var(--bienestar-rgba), 0.6)), url('../images/bienestar.png');
+    background-image: linear-gradient(to right, rgba(var(--bienestar-rgba), .95) 50%, rgba(var(--bienestar-rgba), 0.6)), url('../images/bienestar.png');
 }
 [color="bienestar"] span {
     color: var(--bienestar);
@@ -242,20 +247,46 @@
     border-right: 1px solid var(--bienestar) !important;
 }
 [color="bienestar-list"] li {
-    border-bottom: 1px solid var(--bienestar);
+    border-bottom: 1px solid var(--bienestar) !important;
 }
+
 [color="bienestar-list"] a {
     color: var(--bienestar) !important;
 }
 /* End Color Bienestar */
 
+/* Color Virtual */
+[color="virtual"] {
+    background-image: linear-gradient(to right, rgba(var(--virtual-rgba), .95) 45%, rgba(var(--virtual-rgba), 0.6)), url(../images/virtual.png);
+    text-shadow: 2px 2px 2px #104234;
+}
+[color="virtual"]:hover {
+    background-image: linear-gradient(to right, rgba(var(--virtual-rgba), .95) 50%, rgba(var(--virtual-rgba), 0.6)), url('../images/virtual.png');
+}
+[color="virtual"] span {
+    color: var(--virtual);
+}
+[color="virtual-list"] {
+    border-bottom: 1px solid var(--virtual) !important;
+    border-left: 1px solid var(--virtual) !important;
+    border-right: 1px solid var(--virtual) !important;
+}
+[color="virtual-list"] li {
+    border-bottom: 1px solid var(--virtual) !important;
+}
+
+[color="virtual-list"] a {
+    color: var(--virtual) !important;
+}
+/* End Color Virtual */
+
 /* Color Administracion */
 [color="administracion"] {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.85) 50%, rgba(64, 64, 64, 0.6)), url(../images/administracion.png);
+    background-image: linear-gradient(to right, rgba(45, 45, 45, 0.97) 50%, rgba(64, 64, 64, 0.6)), url(../images/administracion.png);
     text-shadow: 2px 2px 2px #00000030;
 }
 [color="administracion"]:hover {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9) 60%, rgba(64, 64, 64, 0.6)), url(../images/administracion.png);
+    background-image: linear-gradient(to right, rgba(45, 45, 45, 0.97) 60%, rgba(64, 64, 64, 0.6)), url(../images/administracion.png);
 }
 [color="administracion"] span {
     color: black !important;
@@ -266,8 +297,9 @@
     border-right: 1px solid black !important;
 }
 [color="administracion-list"] li {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid black !important;
 }
+
 [color="administracion-list"] a {
     color: black !important;
 }
@@ -275,11 +307,11 @@
 
 /* Color Academica */
 [color="academica"] {
-    background-image: linear-gradient(to right, rgba(var(--academica-rgba), .9) 50%, rgba(var(--academica-rgba), 0.6)), url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg);
+    background-image: linear-gradient(to right, rgba(var(--academica-rgba), .9) 50%, rgba(var(--academica-rgba), 0.6)), url(../images/academica.png);
     text-shadow: 2px 2px 2px #104f7d;
 }
 [color="academica"]:hover {
-    background-image: linear-gradient(to right, rgba(var(--academica-rgba), .95) 60%, rgba(var(--academica-rgba), 0.6)), url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg);
+    background-image: linear-gradient(to right, rgba(var(--academica-rgba), .95) 60%, rgba(var(--academica-rgba), 0.6)), url(../images/academica.png);
 }
 [color="academica"] span {
     color: var(--academica);
@@ -290,8 +322,9 @@
     border-right: 1px solid var(--academica) !important;
 }
 [color="academica-list"] li {
-    border-bottom: 1px solid var(--academica);
+    border-bottom: 1px solid var(--academica) !important;
 }
+
 [color="academica-list"] a {
     color: var(--academica) !important;
 }
@@ -314,8 +347,9 @@
     border-right: 1px solid var(--primary-color) !important;
 }
 [color="deptoCBA-list"] li {
-    border-bottom: 1px solid var(--primary-color);
+    border-bottom: 1px solid var(--primary-color) !important;
 }
+
 [color="deptoCBA-list"] a {
     color: var(--primary-color) !important;
 }
@@ -338,8 +372,9 @@
     border-right: 1px solid var(--primary-color) !important;
 }
 [color="deptoCSH-list"] li {
-    border-bottom: 1px solid var(--primary-color);
+    border-bottom: 1px solid var(--primary-color) !important;
 }
+
 [color="deptoCSH-list"] a {
     color: var(--primary-color) !important;
 }
