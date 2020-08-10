@@ -332,11 +332,11 @@
 
 /* Color DeptoCBA */
 [color="deptoCBA"] {
-    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 50%, rgba(var(--primary-color-rgba), 0.6));
+    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 50%, rgba(var(--primary-color-rgba), 0.6)), url(../images/deptoBasicas.png);
     text-shadow: 2px 2px 2px rgb(25, 120, 165);
 }
 [color="deptoCBA"]:hover {
-    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 60%, rgba(var(--primary-color-rgba), 0.6));
+    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 60%, rgba(var(--primary-color-rgba), 0.6)), url(../images/deptoBasicas.png);
 }
 [color="deptoCBA"] span {
     color: var(--primary-color);
@@ -357,11 +357,11 @@
 
 /* Color DeptoCSH */
 [color="deptoCSH"] {
-    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 50%, rgba(var(--primary-color-rgba), 0.6));
+    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 50%, rgba(var(--primary-color-rgba), 0.6)), url(../images/deptoHumanidades.png);;
     text-shadow: 2px 2px 2px rgb(25, 120, 165);
 }
 [color="deptoCSH"]:hover {
-    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 60%, rgba(var(--primary-color-rgba), 0.6));
+    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 60%, rgba(var(--primary-color-rgba), 0.6)), url(../images/deptoHumanidades.png);;
 }
 [color="deptoCSH"] span {
     color: var(--primary-color);
