@@ -48,6 +48,20 @@
     background: var(--primary-color);
     color: white;
 }
+
+.destacados, .destacados:visited, .destacados:active {
+    background: var(--primary-color);
+    color: white;
+    border: 1px solid var(--primary-color);
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+    transition: all .3s ease;
+}
+
+.destacados:hover {
+    box-shadow: 4px 5px 12px #199bd5a8;
+}
 /* ----------------- END DESTACADOS ----------------- */
 
 #areas {
@@ -329,6 +343,56 @@
     color: var(--academica) !important;
 }
 /* End Color Academica */
+
+/* Color alumnado */
+[color="alumnado"] {
+    background-image: linear-gradient(to right, rgba(var(--alumnado-rgba), .9) 50%, rgba(var(--alumnado-rgba), 0.6)), url(../images/alumnado.png);
+    text-shadow: 2px 2px 2px #104f7d;
+}
+[color="alumnado"]:hover {
+    background-image: linear-gradient(to right, rgba(var(--alumnado-rgba), .95) 60%, rgba(var(--alumnado-rgba), 0.6)), url(../images/alumnado.png);
+}
+[color="alumnado"] span {
+    color: var(--alumnado);
+}
+[color="alumnado-list"] {
+    border-bottom: 1px solid var(--alumnado) !important;
+    border-left: 1px solid var(--alumnado) !important;
+    border-right: 1px solid var(--alumnado) !important;
+}
+[color="alumnado-list"] li {
+    border-bottom: 1px solid var(--alumnado) !important;
+}
+
+[color="alumnado-list"] a {
+    color: var(--alumnado) !important;
+}
+/* End Color alumnado */
+
+/* Color posgrado */
+[color="posgrado"] {
+    background-image: linear-gradient(to right, rgba(var(--posgrado-rgba), .9) 50%, rgba(var(--posgrado-rgba), 0.6)), url(../images/posgrado.png);
+    text-shadow: 2px 2px 2px #104f7d;
+}
+[color="posgrado"]:hover {
+    background-image: linear-gradient(to right, rgba(var(--posgrado-rgba), .95) 60%, rgba(var(--posgrado-rgba), 0.6)), url(../images/posgrado.png);
+}
+[color="posgrado"] span {
+    color: var(--posgrado);
+}
+[color="posgrado-list"] {
+    border-bottom: 1px solid var(--posgrado) !important;
+    border-left: 1px solid var(--posgrado) !important;
+    border-right: 1px solid var(--posgrado) !important;
+}
+[color="posgrado-list"] li {
+    border-bottom: 1px solid var(--posgrado) !important;
+}
+
+[color="posgrado-list"] a {
+    color: var(--posgrado) !important;
+}
+/* End Color posgrado */
 
 /* Color DeptoCBA */
 [color="deptoCBA"] {
