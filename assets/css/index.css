@@ -346,11 +346,11 @@
 
 /* Color alumnado */
 [color="alumnado"] {
-    background-image: linear-gradient(to right, rgba(var(--alumnado-rgba), .9) 50%, rgba(var(--alumnado-rgba), 0.6)), url(../images/alumnado.png);
-    text-shadow: 2px 2px 2px #104f7d;
+    background-image: linear-gradient(to right, rgb(234 219 111 / 80%) 50%, rgb(234 219 111 / 50%)), url(../images/alumnado.png);
+    text-shadow: 2px 2px 2px #847b2d;
 }
 [color="alumnado"]:hover {
-    background-image: linear-gradient(to right, rgba(var(--alumnado-rgba), .95) 60%, rgba(var(--alumnado-rgba), 0.6)), url(../images/alumnado.png);
+    background-image: linear-gradient(to right, rgb(234 219 111 / 80%) 60%, rgb(234 219 111 / 50%)), url(../images/alumnado.png);
 }
 [color="alumnado"] span {
     color: var(--alumnado);
