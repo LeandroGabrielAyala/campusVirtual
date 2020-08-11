@@ -25,11 +25,18 @@
 /* ----------------- END CONTAINER AREA ----------------- */
 
 /* ----------------- DESTACADOS ----------------- */
+.secundario {
+    border-radius: 5px;
+}
+
 .principal {
+    border-radius: 0px 0px 5px 5px;
+}
+
+.principal, .secundario {
     border: 2px solid var(--primary-color);
     background-color: var(--white-color);
     padding: 10px 4px;
-    border-radius: 0px 0px 5px 5px;
     box-shadow: 3px 3px 7px 0px rgb(25, 155, 213, .3);
 }
 
@@ -50,17 +57,30 @@
 }
 
 .destacados, .destacados:visited, .destacados:active {
-    background: var(--primary-color);
-    color: white;
-    border: 1px solid var(--primary-color);
     padding: 10px;
     display: block;
     border-radius: 5px;
     transition: all .3s ease;
 }
 
-.destacados:hover {
+.destacados1, .destacados1:visited, .destacados1:active {
+    background: var(--primary-color);
+    color: white;
+    border: 1px solid var(--primary-color);
+}
+
+.destacados1:hover {
     box-shadow: 4px 5px 12px #199bd5a8;
+}
+
+.destacados2, .destacados2:visited, .destacados2:active {
+    background: #19d58f;
+    color: white;
+    border: 1px solid #19d58f;
+}
+
+.destacados2:hover {
+    box-shadow: 4px 5px 12px #19d58f;
 }
 /* ----------------- END DESTACADOS ----------------- */
 
@@ -115,7 +135,7 @@
 
 .areas--link {
     background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 50%, rgba(var(--primary-color-rgba), 0.6))/*, url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg)*/;
-    background-size: 27rem;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center left;
     padding: 0.8rem 1rem 1.5rem;
@@ -129,7 +149,7 @@
 }
 .areas--link:hover {
     background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 60%, rgba(var(--primary-color-rgba), 0.6))/*, url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg)*/;
-    background-size: 29rem;
+    background-size: 27rem;
 }
 .areas--link span {			
     font-size: .85rem;

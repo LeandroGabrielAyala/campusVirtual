@@ -62,6 +62,12 @@
     /* --- END AREAS --- */
 }
 
+@media only screen and (max-width: 768px) {
+    .areas--link:hover {
+        background-size: 33rem;
+    }
+}
+
 @media only screen and (max-width: 650px) {
     /* --- MENU --- */
     #navbar {
