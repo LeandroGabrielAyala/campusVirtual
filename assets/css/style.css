@@ -29,6 +29,27 @@
     /* --- END AREAS --- */
 }
 
+@media only screen and (max-width: 992px) {    
+    .cabeceraAcademicaItem {
+        border-bottom: 3px solid var(--primary-color);
+        border-left: 3px solid var(--primary-color);
+        border-right: 3px solid var(--primary-color);
+    }
+    .cabeceraAdminItem {
+        border-bottom: 3px solid black;
+        border-left: 3px solid black;
+        border-right: 3px solid black;
+    }
+    
+    .cabeceraAcademicaItem1, .cabeceraAdminItem1 {
+        border-radius: 0;
+    }
+    
+    .cabeceraAcademicaItem3, .cabeceraAdminItem3 {
+        border-radius: 0 0 3px 3px;
+    }
+}
+
 @media only screen and (max-width: 900px) {
     /* --- MENU RESPONSIVE --- */
     .menu__items {

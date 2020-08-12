@@ -137,7 +137,7 @@
     background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 50%, rgba(var(--primary-color-rgba), 0.6))/*, url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg)*/;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: center left;
+    background-position: center right;
     padding: 0.8rem 1rem 1.5rem;
     text-align: left;
     font-size: 1.3rem;
@@ -149,7 +149,7 @@
 }
 .areas--link:hover {
     background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 60%, rgba(var(--primary-color-rgba), 0.6))/*, url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg)*/;
-    background-size: 27rem;
+    background-size: 120%;
 }
 .areas--link span {			
     font-size: .85rem;
@@ -289,31 +289,6 @@
 }
 /* End Color Bienestar */
 
-/* Color Virtual */
-[color="virtual"] {
-    background-image: linear-gradient(to right, rgba(var(--virtual-rgba), .95) 45%, rgba(var(--virtual-rgba), 0.6)), url(../images/virtual.png);
-    text-shadow: 2px 2px 2px #104234;
-}
-[color="virtual"]:hover {
-    background-image: linear-gradient(to right, rgba(var(--virtual-rgba), .95) 50%, rgba(var(--virtual-rgba), 0.6)), url('../images/virtual.png');
-}
-[color="virtual"] span {
-    color: var(--virtual);
-}
-[color="virtual-list"] {
-    border-bottom: 1px solid var(--virtual) !important;
-    border-left: 1px solid var(--virtual) !important;
-    border-right: 1px solid var(--virtual) !important;
-}
-[color="virtual-list"] li {
-    border-bottom: 1px solid var(--virtual) !important;
-}
-
-[color="virtual-list"] a {
-    color: var(--virtual) !important;
-}
-/* End Color Virtual */
-
 /* Color Administracion */
 [color="administracion"] {
     background-image: linear-gradient(to right, rgba(45, 45, 45, 0.97) 50%, rgba(64, 64, 64, 0.6)), url(../images/administracion.png);
@@ -339,6 +314,31 @@
 }
 /* End Color Administracion */
 
+/* Color Administracion Item */
+[color="administracionItem"] {
+    background-image: linear-gradient(to right, rgb(58 58 58 / 97%) 70%, rgb(0 0 0 / 80%)), url(../images/administracion.png);
+    text-shadow: 2px 2px 2px #00000030;
+}
+[color="administracionItem"]:hover {
+    background-image: linear-gradient(to right, rgba(45, 45, 45, 0.97) 80%, rgba(64, 64, 64, 0.8)), url(../images/administracion.png);
+}
+[color="administracionItem"] span {
+    color: black !important;
+}
+[color="administracionItem-list"] {
+    border-bottom: 1px solid black !important;
+    border-left: 1px solid black !important;
+    border-right: 1px solid black !important;
+}
+[color="administracionItem-list"] li {
+    border-bottom: 1px solid black !important;
+}
+
+[color="administracionItem-list"] a {
+    color: black !important;
+}
+/* End Color Administracion Item */
+
 /* Color Academica */
 [color="academica"] {
     background-image: linear-gradient(to right, rgba(var(--academica-rgba), .9) 50%, rgba(var(--academica-rgba), 0.6)), url(../images/academica.png);
@@ -363,56 +363,6 @@
     color: var(--academica) !important;
 }
 /* End Color Academica */
-
-/* Color alumnado */
-[color="alumnado"] {
-    background-image: linear-gradient(to right, rgb(234 219 111 / 80%) 50%, rgb(234 219 111 / 50%)), url(../images/alumnado.png);
-    text-shadow: 2px 2px 2px #847b2d;
-}
-[color="alumnado"]:hover {
-    background-image: linear-gradient(to right, rgb(234 219 111 / 80%) 60%, rgb(234 219 111 / 50%)), url(../images/alumnado.png);
-}
-[color="alumnado"] span {
-    color: var(--alumnado);
-}
-[color="alumnado-list"] {
-    border-bottom: 1px solid var(--alumnado) !important;
-    border-left: 1px solid var(--alumnado) !important;
-    border-right: 1px solid var(--alumnado) !important;
-}
-[color="alumnado-list"] li {
-    border-bottom: 1px solid var(--alumnado) !important;
-}
-
-[color="alumnado-list"] a {
-    color: var(--alumnado) !important;
-}
-/* End Color alumnado */
-
-/* Color posgrado */
-[color="posgrado"] {
-    background-image: linear-gradient(to right, rgba(var(--posgrado-rgba), .9) 50%, rgba(var(--posgrado-rgba), 0.6)), url(../images/posgrado.png);
-    text-shadow: 2px 2px 2px #104f7d;
-}
-[color="posgrado"]:hover {
-    background-image: linear-gradient(to right, rgba(var(--posgrado-rgba), .95) 60%, rgba(var(--posgrado-rgba), 0.6)), url(../images/posgrado.png);
-}
-[color="posgrado"] span {
-    color: var(--posgrado);
-}
-[color="posgrado-list"] {
-    border-bottom: 1px solid var(--posgrado) !important;
-    border-left: 1px solid var(--posgrado) !important;
-    border-right: 1px solid var(--posgrado) !important;
-}
-[color="posgrado-list"] li {
-    border-bottom: 1px solid var(--posgrado) !important;
-}
-
-[color="posgrado-list"] a {
-    color: var(--posgrado) !important;
-}
-/* End Color posgrado */
 
 /* Color DeptoCBA */
 [color="deptoCBA"] {
@@ -464,3 +414,53 @@
 }
 /* End Color DeptoCSH */
 
+
+
+
+
+
+.cabeceraAcademicaArea {
+    border: 3px solid var(--primary-color);
+    border-radius: 3px 3px 0 0;
+}
+
+.cabeceraAcademicaItem {
+    border-bottom: 3px solid var(--primary-color);
+}
+
+.cabeceraAcademicaItem1 {
+    border-radius: 0 0 0 3px;
+    border-left: 3px solid var(--primary-color);border-right: 1.5px solid var(--primary-color);
+}
+
+.cabeceraAcademicaItem2 {
+    border-left: 1.5px solid var(--primary-color);border-right: 1.5px solid var(--primary-color);
+}
+
+.cabeceraAcademicaItem3 {
+    border-radius: 0 0 3px 0;
+    border-left: 1.5px solid var(--primary-color);border-right: 3px solid var(--primary-color);
+}
+
+.cabeceraAdminArea {
+    border: 3px solid black;
+    border-radius: 3px 3px 0 0;
+}
+
+.cabeceraAdminItem {
+    border-bottom: 3px solid black;
+}
+
+.cabeceraAdminItem1 {
+    border-radius: 0 0 0 3px;
+    border-left: 3px solid black;border-right: 1.5px solid black;
+}
+
+.cabeceraAdminItem2 {
+    border-left: 1.5px solid black;border-right: 1.5px solid black;
+}
+
+.cabeceraAdminItem3 {
+    border-radius: 0 0 3px 0;
+    border-left: 1.5px solid black;border-right: 3px solid black;
+}
