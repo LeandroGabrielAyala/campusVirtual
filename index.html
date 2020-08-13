@@ -31,49 +31,30 @@
 	<!-- Menu Responsive -->
 	<div id="menu__mobile" class="menu__mobile">
 
-		<!-- Boton cerrar menu -->
-		<div class="menu__close">
-			<i class="fas fa-times"></i>
-		</div>
-		<!-- / Boton cerrar menu -->
-
-		<!-- Menu items -->
-		<div class="menu__items">
-			<ul class="menu__list col-sm-12">
-				<li class="menu__list-item col-sm-12 col-md-6 item1">
-					<a href="https://uncaus.edu.ar/index.php/inicio/noticias" target="_blank"><i class="far fa-dot-circle"></i>Noticias</a>
-				</li>
-				<li class="menu__list-item col-sm-12 col-md-6 item2">
-					<a href="https://www.facebook.com/universidaduncaus/" target="_blank"><i class="far fa-dot-circle"></i>Facebook</a>
-				</li>
-				<li class="menu__list-item col-sm-12 col-md-6 item3">
-					<a href="https://www.instagram.com/uncausuniversidad/" target="_blank"><i class="far fa-dot-circle"></i>Instagram</a>
-				</li>
-				<li class="menu__list-item col-sm-12 col-md-6 item4">
-					<a href="https://twitter.com/UNCAUSoficial" target="_blank"><i class="far fa-dot-circle"></i>Twitter</a>
-				</li>
-				<li class="menu__list-item col-sm-12 col-md-6 item5">
-					<a href="https://www.youtube.com/user/UNCAusUniversidad" target="_blank"><i class="far fa-dot-circle"></i>YouTube</a>
-				</li>
-			</ul>
-		</div>
-		<!-- / Menu items -->
-
-		<!-- Info contact -->
-		<div class="menu__info">
-			<div class="menu__contact">
-				<a href="#" class="menu__contact-location item5"><i class="fas fa-map-marker-alt"></i>Comandante Fernandez 755, Pcia.R. Sáez Peña, Chaco, Argentina</a>
-				<a href="#" class="menu__contact-phone item5"><i class="fas fa-phone"></i>+54 (0364) 4420137</a>
+		<div class="container">
+			<!-- Boton cerrar menu -->
+			<div class="menu__close p-2 d-flex justify-content-between align-items-center">
+				<p class="text-white">CAMPUS VIRTUAL</p>
+				<i class="fas fa-times"></i>
+			</div>
+			<!-- / Boton cerrar menu -->
+			
+			<!-- Contenido menu responsive -->
+			<div class="list-group">
+				<a href="https://uncaus.edu.ar/index.php/inicio/noticias" target="_blank" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center font-weight-bold">Noticias <i class="fas fa-share"></i></a>
+				<a href="https://www.facebook.com/universidaduncaus/" target="_blank" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center font-weight-bold">Facebook <i class="fas fa-share"></i></a>
+				<a href="https://www.instagram.com/uncausuniversidad/" target="_blank" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center font-weight-bold">Instagram <i class="fas fa-share"></i></a>
+				<a href="https://twitter.com/UNCAUSoficial" target="_blank" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center font-weight-bold">Twitter <i class="fas fa-share"></i></a>
+				<a href="https://www.youtube.com/user/UNCAusUniversidad" target="_blank" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center font-weight-bold">YouTube <i class="fas fa-share"></i></a>
 			</div>
 
-			<!--<div class="menu__socialMedia item5">
-				<a href="https://www.facebook.com/universidaduncaus/"><i class="fab fa-facebook-f"></i></a>
-				<a href="https://www.instagram.com/uncausuniversidad/"><i class="fab fa-instagram"></i></a>
-				<a href="https://twitter.com/UNCAUSoficial"><i class="fab fa-twitter"></i></a>
-				<a href="https://www.youtube.com/user/UNCAusUniversidad"><i class="fab fa-youtube"></i></a>
-			</div> -->
+			<div class="list-group list-groupInfo mt-3">
+				<a href="https://www.google.com/maps/place/Universidad+Nacional+del+Chaco+Austral/@-26.800882,-60.4484942,17z/data=!4m5!3m4!1s0x94412cd9a3dcf287:0x982c40251dfdb9d7!8m2!3d-26.8017172!4d-60.4469262" target="_blank" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center font-weight-bold">Comandante Fernandez 755, Pcia.R. Sáez Peña, Chaco, Argentina <i class="fas fa-map-marker-alt"></i></a>
+				<a href="tel:08102200305" target="_blank" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center font-weight-bold">0810-2200305 <i class="fas fa-phone"></i></a>
+			</div>
+			<!-- / Contenido menu responsive -->
 		</div>
-		<!-- / Info contact -->
+
 	</div>
 	<!-- // Menu Responsive -->
 
@@ -90,7 +71,7 @@
 
 	<!-- Section: Areas -->
 	<section class="container--areas">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-12 px-md-3 px-0">
                     <div class="container--areas-title pt-3 pb-2">
@@ -158,8 +139,8 @@
                                 </ul>
 							</div>
                             <div class="areas--depto w-100 mb-3 col-sm-12 col-lg-6 pl-lg-1 pr-lg-2 px-1">
-                                <h3 class="areas--link" data-toggle="collapse" data-target="#collapseISSUNCAUS" aria-expanded="true" aria-controls="collapseISSUNCAUS" style="padding: 41px 0 41px 18px;"><i class="far fa-dot-circle" style="margin-right: 10px;font-size: .9rem;"></i>ISSUNCAUS</h3>
-                                <ul id="collapseISSUNCAUS" class="collapse" aria-labelledby="headingISSUNCAUS" data-parent="#areas">
+                                <h3 class="areas--link" color="issuncaus" data-toggle="collapse" data-target="#collapseISSUNCAUS" aria-expanded="true" aria-controls="collapseISSUNCAUS" style="padding: 41px 0 41px 18px;"><i class="far fa-dot-circle" style="margin-right: 10px;font-size: .9rem;"></i>ISSUNCAUS</h3>
+                                <ul id="collapseISSUNCAUS" color="issuncaus-list" class="collapse" aria-labelledby="headingISSUNCAUS" data-parent="#areas">
 									<li><a href="mailto:issuncaus@uncaus.edu.ar" target="_blank">Correo: <b>issuncaus@uncaus.edu.ar</b></a></li>
 									<li><a href="tel:36244587280" target="_blank">Teléfono: <b>36244587280</b></a></li>
 									<li><a href="http://iss.uncaus.edu/" target="_blank">Sistema ISSUNCAUS</a></li>
@@ -169,14 +150,13 @@
                                 <h3 class="areas--link" color="hipermedios" data-toggle="collapse" data-target="#collapseHipermedios" aria-expanded="true" aria-controls="collapseHipermedios" style="padding: 41px 0 41px 18px;"><i class="far fa-dot-circle" style="margin-right: 10px;font-size: .9rem;"></i>Hipermedios</h3>
                                 <ul id="collapseHipermedios" color="hipermedios-list" class="collapse" aria-labelledby="headingHipermedios" data-parent="#areas">
 									<li class="areas--depto-list">Comunicación y Medios:</li>
-                                    <li><a href="mailto:comunicacionhipermedios@uncaus.edu.ar" target="_blank" class="areas--depto-listItem">Correo:<br><b>comunicacionhipermedios@uncaus.edu.ar</b></a></li>
+									<li><a href="mailto:comunicacionhipermedios@uncaus.edu.ar" target="_blank" class="areas--depto-listItem">Correo:<br><b>comunicacionhipermedios@uncaus.edu.ar</b></a></li>
+									<li><a href="https://www.instagram.com/uncausuniversidad/" target="_blank" class="areas--depto-listItem">Instagram UNCAus</a></li>
+									<li><a href="https://www.facebook.com/universidaduncaus" target="_blank" class="areas--depto-listItem">Facebook UNCAus</a></li>
+									<li><a href="https://twitter.com/uncausoficial" target="_blank" class="areas--depto-listItem">Twitter UNCAus</a></li>
+									<li><a href="https://www.youtube.com/user/UNCAusUniversidad/" target="_blank" class="areas--depto-listItem">YouTube UNCAus</a></li>
                                     <li class="areas--depto-list">Radio y TV:</li>
-									<li><a href="mailto:radiofm@uncaus.edu.ar" target="_blank" class="areas--depto-listItem">Correo:<br><b>radiofm@uncaus.edu.ar</b></a></li>
-									<li><a href="https://uncaus.edu.ar/" target="_blank">Página Web</a></li>
-									<li><a href="https://www.instagram.com/uncausuniversidad/" target="_blank">Instagram</a></li>
-									<li><a href="https://www.facebook.com/universidaduncaus" target="_blank">Facebook</a></li>
-									<li><a href="https://twitter.com/uncausoficial" target="_blank">Twitter</a></li>
-									<li><a href="https://www.youtube.com/user/UNCAusUniversidad/" target="_blank">YouTube</a></li>
+									<li><a href="mailto:radiofm@uncaus.edu.ar" target="_blank" class="areas--depto-listItem" class="areas--depto-listItem">Correo:<br><b>radiofm@uncaus.edu.ar</b></a></li>
                                 </ul>
 							</div>
                             <div class="areas--depto w-100 mb-0 col-sm-12 p-1 cabeceraAdminArea">
@@ -341,29 +321,10 @@
 				document.getElementById('preloader').style.opacity = '0';
 			}, 2800);
 
+			// Abre menu
 			$('.navbar--icon').click(function() {
 				$("#menu__mobile").css('opacity', '1');
-				$("#menu__mobile").css('left', '0');
-
-				setTimeout(function() {
-					$('.item1').css('opacity', '1');
-				}, 500);
-				setTimeout(function() {
-					$('.item2').css('opacity', '1');
-				}, 1000);
-				setTimeout(function() {
-					$('.item3').css('opacity', '1');
-				}, 1500);
-				setTimeout(function() {
-					$('.item4').css('opacity', '1');
-				}, 2000);
-				setTimeout(function() {
-					$('.item5').css('opacity', '1');
-				}, 2500);
-			});
-			$('.navbar--icon-mobile').click(function() {
-				$("#menu__mobile").css('opacity', '1');
-				$("#menu__mobile").css('left', '0');
+				$("#menu__mobile").css('right', '0');
 
 				setTimeout(function() {
 					$('.item1').css('opacity', '1');
@@ -382,8 +343,31 @@
 				}, 2500);
 			});
 			
+			// Abre menu responsive
+			$('.navbar--icon-mobile').click(function() {
+				$("#menu__mobile").css('opacity', '1');
+				$("#menu__mobile").css('right', '0');
+
+				setTimeout(function() {
+					$('.item1').css('opacity', '1');
+				}, 500);
+				setTimeout(function() {
+					$('.item2').css('opacity', '1');
+				}, 1000);
+				setTimeout(function() {
+					$('.item3').css('opacity', '1');
+				}, 1500);
+				setTimeout(function() {
+					$('.item4').css('opacity', '1');
+				}, 2000);
+				setTimeout(function() {
+					$('.item5').css('opacity', '1');
+				}, 2500);
+			});
+			
+			// Cierra menu
 			$('.fa-times').click(function() {
-				$("#menu__mobile").css('left', '-100%');
+				$("#menu__mobile").css('right', '-100%');
 				$("#menu__mobile").css('opacity', '0');
 				$(".item1").css('opacity', '0');
 				$(".item2").css('opacity', '0');

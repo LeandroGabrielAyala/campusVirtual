@@ -21,7 +21,7 @@
     --academica: #1978bd;
     --academica-rgba: 25, 120, 189;
     --alumnado: #b7ae63;
-    /* --alumnado-rgba: 25, 120, 189; */
+    --issuncaus: #19d58f;
     --posgrado: #1cb7b3;
     --posgrado-rgba: 28, 183, 179;
     --virtual: #1d755d;
@@ -182,105 +182,35 @@ svg {
     background-color: var(--primary-color);
     width: 100%;
     height: 100vh;
-    padding: 20px;
+    padding: 10px 20px;
     position: fixed;
-    left: -100%;
+    right: -100%;
     opacity: 0;
     z-index: 10000;
-
     transition: all .3s ease;
 }
 
-.icon-responsive, .menu__close {
+.menu__close {
     cursor: pointer;
 }
 
-.menu__close {
-    position: absolute;
-    top: 2%;
-    left: 5%;
+.list-group a {
+    color: var(--primary-color) !important;
 }
+
+.list-groupInfo a, .list-groupInfo a:visited {
+    background-color: #147ead;
+    color: var(--white-color) !important;
+}
+
+.list-groupInfo a:active, .list-groupInfo a:hover, .list-groupInfo a:focus {
+    background-color: #147ead9c;
+}
+
 .menu__close i {
     font-size: 2rem;
     font-weight: lighter;
     color: var(--white-color);
-}
-
-.menu__items {
-    position: absolute;
-    top: 12%;
-    left: 6%;
-}
-.menu__list {
-    list-style: none;
-}
-.menu__list-item {
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-}
-
-.item1, .item2, .item3, .item4, .item5 {
-    opacity: 0;
-    transition: all .3s ease;
-}
-
-.menu__list-item a {
-    color: var(--white-color);
-    font-size: 2.5rem;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-}
-
-.menu__list-item a i {
-    color: var(--white-color);
-    font-size: 1.2rem;
-    margin-right: 10px !important;
-}
-.menu__list-item i {
-    color: var(--white-color);
-    font-size: 1.2rem;
-    margin-left: 20px;
-}
-
-.menu__info {
-    position: absolute;
-    bottom: 3%;
-    left: 8%;
-    width: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.menu__contact {
-    font-size: 1.1rem;
-    margin-right: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: flex-start;
-}
-.menu__contact i {
-    margin-right: 10px;
-}
-
-.menu__contact-location {
-    margin-bottom: 15px !important;
-}
-
-.menu__info a, .menu__info i {
-    color: var(--white-color);
-    font-weight: lighter;
-}
-
-.menu__socialMedia {
-}
-.menu__socialMedia i {
-    font-size: 1.3em;
-    margin: 0 8px;
 }
 /* --------------- End Menu responsive --------------- */
 

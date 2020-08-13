@@ -265,6 +265,35 @@
 }
 /* End Color SICyT */
 
+
+/* Color ISSUNCUAS */
+[color="issuncaus"] {
+    background-image: linear-gradient(to right, rgb(25 213 143 / 83%) 50%, rgb(25 213 143 / 48%)), url(../images/issuncaus.png);
+    text-shadow: 2px 2px 2px #109865;
+}
+[color="issuncaus"]:hover {
+    background-image: linear-gradient(to right, rgb(25 213 143 / 90%) 50%, rgb(25 213 143 / 65%)), url(../images/issuncaus.png);
+}
+[color="issuncaus"] span {
+    color: var(--issuncaus);
+}
+[color="issuncaus-list"] {
+    border-bottom: 1px solid var(--issuncaus) !important;
+    border-left: 1px solid var(--issuncaus) !important;
+    border-right: 1px solid var(--issuncaus) !important;
+}
+[color="issuncaus-list"] li {
+    border-bottom: 1px solid var(--issuncaus) !important;
+}
+
+[color="issuncaus-list"] a {
+    color: var(--issuncaus) !important;
+}
+/* End Color ISSUNCUAS */
+
+
+
+
 /* Color Bienestar */
 [color="bienestar"] {
     background-image: linear-gradient(to right, rgb(239 129 50 / 96%) 50%, rgb(239 129 50 / 73%)), url(../images/bienestar.png);
