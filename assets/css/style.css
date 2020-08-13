@@ -29,16 +29,23 @@
     /* --- END AREAS --- */
 }
 
-@media only screen and (max-width: 992px) {    
+@media only screen and (max-width: 992px) {
+    /* .areas--link {
+        background-size: 30rem;
+    }
+    .areas--link:hover{ 
+        background-size: 25rem;
+    } */
+
     .cabeceraAcademicaItem {
-        border-bottom: 3px solid var(--primary-color);
-        border-left: 3px solid var(--primary-color);
-        border-right: 3px solid var(--primary-color);
+        border-bottom: 3px solid #2f85c3;
+        border-left: 3px solid #2f85c3;
+        border-right: 3px solid #2f85c3;
     }
     .cabeceraAdminItem {
-        border-bottom: 3px solid black;
-        border-left: 3px solid black;
-        border-right: 3px solid black;
+        border-bottom: 3px solid var(--administracion);
+        border-left: 3px solid var(--administracion);
+        border-right: 3px solid var(--administracion);
     }
     
     .cabeceraAcademicaItem1, .cabeceraAdminItem1 {
@@ -81,12 +88,6 @@
         grid-template-columns: 1fr 1fr;
     }
     /* --- END AREAS --- */
-}
-
-@media only screen and (max-width: 768px) {
-    .areas--link:hover {
-        background-size: 33rem;
-    }
 }
 
 @media only screen and (max-width: 650px) {

@@ -137,7 +137,7 @@
     background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 50%, rgba(var(--primary-color-rgba), 0.6))/*, url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg)*/;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: center right;
+    background-position: center left;
     padding: 0.8rem 1rem 1.2rem;
     border-radius: 5px;
     text-align: left;
@@ -150,7 +150,7 @@
 }
 .areas--link:hover {
     background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 60%, rgba(var(--primary-color-rgba), 0.6))/*, url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg)*/;
-    background-size: 120%;
+    background-size: 110%;
 }
 .areas--link span {			
     font-size: .85rem;
@@ -217,7 +217,7 @@
 
 /* Color Cooperacion */
 [color="cooperacion"] {
-    background-image: linear-gradient(to right, rgba(var(--cooperacion-rgba), 0.7) 60%, rgba(var(--cooperacion-rgba), 0.6)), url('../images/cooperacion.png');
+    background-image: linear-gradient(to right, rgba(var(--cooperacion-rgba), 0.9) 60%, rgba(var(--cooperacion-rgba), 0.6)), url('../images/cooperacion.png');
     text-shadow: 2px 2px 2px #905a78c2;
 }
 [color="cooperacion"]:hover {
@@ -267,11 +267,11 @@
 
 /* Color Bienestar */
 [color="bienestar"] {
-    background-image: linear-gradient(to right, rgba(var(--bienestar-rgba), .95) 45%, rgba(var(--bienestar-rgba), 0.6)), url(../images/bienestar.png);
-    text-shadow: 2px 2px 2px #104234;
+    background-image: linear-gradient(to right, rgb(239 129 50 / 96%) 50%, rgb(239 129 50 / 73%)), url(../images/bienestar.png);
+    text-shadow: 2px 2px 2px #b35c1d;
 }
 [color="bienestar"]:hover {
-    background-image: linear-gradient(to right, rgba(var(--bienestar-rgba), .95) 50%, rgba(var(--bienestar-rgba), 0.6)), url('../images/bienestar.png');
+    background-image: linear-gradient(to right, rgb(239 129 50) 50%, rgb(239 129 50 / 83%)), url(../images/bienestar.png);
 }
 [color="bienestar"] span {
     color: var(--bienestar);
@@ -292,53 +292,79 @@
 
 /* Color Administracion */
 [color="administracion"] {
-    background-image: linear-gradient(to right, rgba(45, 45, 45, 0.97) 50%, rgba(64, 64, 64, 0.6)), url(../images/administracion.png);
-    text-shadow: 2px 2px 2px #00000030;
+    background-image: linear-gradient(to right, rgba(var(--administracion-rgba), .95) 45%, rgba(var(--administracion-rgba), 0.6)), url(../images/administracion.png);
+    text-shadow: 2px 2px 2px #104234;
 }
 [color="administracion"]:hover {
-    background-image: linear-gradient(to right, rgba(45, 45, 45, 0.97) 60%, rgba(64, 64, 64, 0.6)), url(../images/administracion.png);
+    background-image: linear-gradient(to right, rgba(var(--administracion-rgba), .95) 50%, rgba(var(--administracion-rgba), 0.6)), url('../images/administracion.png');
 }
+
 [color="administracion"] span {
-    color: black !important;
+    color: var(--administracion) !important;
 }
 [color="administracion-list"] {
-    border-bottom: 1px solid black !important;
-    border-left: 1px solid black !important;
-    border-right: 1px solid black !important;
+    border-bottom: 1px solid var(--administracion) !important;
+    border-left: 1px solid var(--administracion) !important;
+    border-right: 1px solid var(--administracion) !important;
 }
 [color="administracion-list"] li {
-    border-bottom: 1px solid black !important;
+    border-bottom: 1px solid var(--administracion) !important;
 }
 
 [color="administracion-list"] a {
-    color: black !important;
+    color: var(--administracion) !important;
 }
 /* End Color Administracion */
 
 /* Color Administracion Item */
 [color="administracionItem"] {
-    background-image: linear-gradient(to right, rgb(58 58 58 / 97%) 70%, rgb(0 0 0 / 80%)), url(../images/administracion.png);
-    text-shadow: 2px 2px 2px #00000030;
+    background-image: linear-gradient(to right, rgba(var(--administracion-rgba), .95) 45%, rgba(var(--administracion-rgba), 0.6)), url(../images/administracion.png);
+    text-shadow: 2px 2px 2px #104234;
 }
 [color="administracionItem"]:hover {
-    background-image: linear-gradient(to right, rgba(45, 45, 45, 0.97) 80%, rgba(64, 64, 64, 0.8)), url(../images/administracion.png);
+    background-image: linear-gradient(to right, rgba(var(--administracion-rgba), .95) 50%, rgba(var(--administracion-rgba), 0.6)), url('../images/administracion.png');
 }
 [color="administracionItem"] span {
-    color: black !important;
+    color: var(--administracion) !important;
 }
 [color="administracionItem-list"] {
+    border-bottom: 1px solid var(--administracion) !important;
+    border-left: 1px solid var(--administracion) !important;
+    border-right: 1px solid var(--administracion) !important;
+}
+[color="administracionItem-list"] li {
+    border-bottom: 1px solid var(--administracion) !important;
+}
+
+[color="administracionItem-list"] a {
+    color: var(--administracion) !important;
+}
+/* End Color Administracion Item */
+
+/* Color Hipermedios */
+[color="hipermedios"] {
+    background-image: linear-gradient(to right, rgba(45, 45, 45, 0.97) 50%, rgba(64, 64, 64, 0.6)), url(../images/hipermedios.png);
+    text-shadow: 2px 2px 2px #00000030;
+}
+[color="hipermedios"]:hover {
+    background-image: linear-gradient(to right, rgba(45, 45, 45, 0.97) 60%, rgba(64, 64, 64, 0.6)), url(../images/hipermedios.png);
+}
+[color="hipermedios"] span {
+    color: black !important;
+}
+[color="hipermedios-list"] {
     border-bottom: 1px solid black !important;
     border-left: 1px solid black !important;
     border-right: 1px solid black !important;
 }
-[color="administracionItem-list"] li {
+[color="hipermedios-list"] li {
     border-bottom: 1px solid black !important;
 }
 
-[color="administracionItem-list"] a {
+[color="hipermedios-list"] a {
     color: black !important;
 }
-/* End Color Administracion Item */
+/* End Color Hipermedios */
 
 /* Color Academica */
 [color="academica"] {
@@ -416,52 +442,48 @@
 /* End Color DeptoCSH */
 
 
-
-
-
-
 .cabeceraAcademicaArea {
-    border: 3px solid var(--primary-color);
+    border: 3px solid #2f85c3;
     border-radius: 3px 3px 0 0;
 }
 
 .cabeceraAcademicaItem {
-    border-bottom: 3px solid var(--primary-color);
+    border-bottom: 3px solid #2f85c3;
 }
 
 .cabeceraAcademicaItem1 {
     border-radius: 0 0 0 3px;
-    border-left: 3px solid var(--primary-color);border-right: 1.5px solid var(--primary-color);
+    border-left: 3px solid #2f85c3;border-right: 1.5px solid #2f85c3;
 }
 
 .cabeceraAcademicaItem2 {
-    border-left: 1.5px solid var(--primary-color);border-right: 1.5px solid var(--primary-color);
+    border-left: 1.5px solid #2f85c3;border-right: 1.5px solid #2f85c3;
 }
 
 .cabeceraAcademicaItem3 {
     border-radius: 0 0 3px 0;
-    border-left: 1.5px solid var(--primary-color);border-right: 3px solid var(--primary-color);
+    border-left: 1.5px solid #2f85c3;border-right: 3px solid #2f85c3;
 }
 
 .cabeceraAdminArea {
-    border: 3px solid black;
+    border: 3px solid var(--administracion);
     border-radius: 3px 3px 0 0;
 }
 
 .cabeceraAdminItem {
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid var(--administracion);
 }
 
 .cabeceraAdminItem1 {
     border-radius: 0 0 0 3px;
-    border-left: 3px solid black;border-right: 1.5px solid black;
+    border-left: 3px solid var(--administracion);border-right: 1.5px solid var(--administracion);
 }
 
 .cabeceraAdminItem2 {
-    border-left: 1.5px solid black;border-right: 1.5px solid black;
+    border-left: 1.5px solid var(--administracion);border-right: 1.5px solid var(--administracion);
 }
 
 .cabeceraAdminItem3 {
     border-radius: 0 0 3px 0;
-    border-left: 1.5px solid black;border-right: 3px solid black;
+    border-left: 1.5px solid var(--administracion);border-right: 3px solid var(--administracion);
 }
