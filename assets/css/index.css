@@ -55,6 +55,23 @@
     background: var(--primary-color);
     color: white;
 }
+.gecyf + ul {
+    border-left: 1px solid #ff996c !important;
+    border-radius: 0 0 5px 5px !important;
+    border-right: 1px solid #ff996c !important;
+    border-bottom: 1px solid #ff996c !important;
+}
+.gecyf + ul a {
+    color: #ff996c !important;
+}
+.gecyf:visited, .gecyf:active {
+    color: var(--white-color) !important;
+    background-color: #ff996c !important;
+    border: 1px solid #ff996c !important;
+}
+.gecyf:hover {
+    box-shadow: 4px 5px 12px #ff996cd1;
+}
 
 .destacados, .destacados:visited, .destacados:active {
     padding: 10px;
