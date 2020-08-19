@@ -128,7 +128,7 @@ svg {
     background-color: var(--white-color);
     box-shadow: 0px 2px 5px rgba(var(--black-color-rgba), 0.2);
     display: grid;
-    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-columns: repeat(3, 2fr);
     grid-template-rows: 35px;
     grid-template-areas: 
     "logo titulo nav";

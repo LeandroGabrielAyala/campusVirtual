@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Campus Virtual</title>
+	<title>Portal Comunidad UNCAus</title>
 
 	<!-- Styles -->
 	<link rel="stylesheet" href="assets/css/style.css">
@@ -34,7 +34,7 @@
 		<div class="container">
 			<!-- Boton cerrar menu -->
 			<div class="menu__close p-2 d-flex justify-content-between align-items-center">
-				<p class="text-white">CAMPUS VIRTUAL</p>
+				<p class="text-white text-uppercase">Portal Comunidad UNCAus</p>
 				<i class="fas fa-times"></i>
 			</div>
 			<!-- / Boton cerrar menu -->
@@ -63,7 +63,7 @@
 		<a href="index.html" class="navbar--logo">
 			<img src="assets/images/preload.svg" alt="Logo UNCAus" class="navbar--logo-img">
         </a>        
-        <p class="navbar--title">Campus Virtual</p>
+        <p class="navbar--title text-uppercase">Portal Comunidad UNCAus</p>
 		<i class="fas fa-bars navbar--icon"></i>
 	</nav>
 	<p class="navbar--icon-mobile"><i class="fas fa-bars"></i> MENU</p>
@@ -82,7 +82,7 @@
                             <a href="https://guarani3.uncaus.edu.ar/guarani/" target="_blank" class="principal-item">SIU Guaraní</a>
                         </div>
                         <div class="col-sm-12 p-1">
-                            <a href="https://moodle.uncaus.edu.ar/" target="_blank" class="principal-item">Moodle</a>
+                            <a href="https://moodle.uncaus.edu.ar/" target="_blank" class="principal-item">Moodle Presencial</a>
                         </div>
                         <div class="col-sm-12 p-1">
                             <a href="https://mesas.uncaus.edu.ar/auth/login" target="_blank" class="principal-item">Mesas de Exámenes</a>
@@ -119,7 +119,14 @@
                         </div>
                         <div class="col-sm-12 p-1">
                             <a href="#" target="_blank" class="principal-item">Página Web Cultura</a>
-                        </div>
+						</div>
+                        <div class="col-sm-12 p-1">
+							<a href="#" target="_blank" class="principal-item gecyf" data-toggle="collapse" data-target="#collapseGenero" aria-expanded="true" aria-controls="collapseGenero">Centro de Estudios en Género y Feminismos</a>
+							<ul id="collapseGenero" class="collapse p-2" aria-labelledby="headingGenero" data-parent="#areas">
+								<li><a href="mailto:secextension@uncaus.edu.ar" target="_blank">Corre:<br><b>cegyf@uncaus.edu.ar</b></a></li>
+							</ul>
+						</div>
+                                
                     </div>
                 </div>
 
@@ -194,11 +201,11 @@
 
 							<div class="areas--depto w-100 mb-3 col-sm-12 px-1">
                                 <h3 class="areas--link" color="bienestar" data-toggle="collapse" data-target="#collapseEstudiantil" aria-expanded="true" aria-controls="collapseEstudiantil"><span class="text-uppercase">Secretaría :</span><br>Bienestar Estudiantil</h3>
-                                <ul id="collapseEstudiantil" color="bienestar-list" class="collapse" aria-labelledby="headingEstudiantil" data-parent="#areas">
+                                <!-- <ul id="collapseEstudiantil" color="bienestar-list" class="collapse" aria-labelledby="headingEstudiantil" data-parent="#areas">
                                     <li><a href="#" target="_blank">Item</a></li>
                                     <li><a href="#" target="_blank">Item</a></li>
                                     <li><a href="#" target="_blank">Item</a></li>
-                                </ul>
+                                </ul> -->
 							</div>
                             <div class="areas--depto w-100 mb-3 col-sm-12 px-1">
                                 <h3 class="areas--link" color="sicyt" data-toggle="collapse" data-target="#collapseSICyT" aria-expanded="true" aria-controls="collapseSICyT"><span class="text-uppercase">Secretaría :</span><br>Investigación, Ciencia y Ténica</h3>
@@ -263,12 +270,12 @@
 							</div>
 							<div class="areas--depto w-100 mb-3 col-sm-12 col-lg-6 pr-lg-1 pl-lg-2 px-1">
                                 <h3 class="areas--link" color="deptoCSH" data-toggle="collapse" data-target="#collapseDeptoCSH" aria-expanded="true" aria-controls="collapseDeptoCSH"><span class="text-uppercase">Departamento :</span><br>Ciencias Sociales y Humanísticas</h3>
-                                <ul id="collapseDeptoCSH" color="deptoCSH-list" class="collapse" aria-labelledby="headingDeptoCSH" data-parent="#areas">
+                                <!-- <ul id="collapseDeptoCSH" color="deptoCSH-list" class="collapse" aria-labelledby="headingDeptoCSH" data-parent="#areas">
                                     <li><a href="#" target="_blank">Item</a></li>
                                     <li><a href="#" target="_blank">Item</a></li>
                                     <li><a href="#" target="_blank">Item</a></li>
                                     <li><a href="#" target="_blank">Item</a></li>
-                                </ul>
+                                </ul> -->
 							</div>
                             <div class="areas--depto w-100 mb-3 col-sm-12 col-lg-6 pl-lg-1 pr-lg-2 px-1">
                                 <h3 class="areas--link" color="franja" data-toggle="collapse" data-target="#collapseFranja" aria-expanded="true" aria-controls="collapseFranja"><span class="text-uppercase">Centro de Estudiantes :</span><br>Franja Morada</h3>
@@ -314,6 +321,27 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
+
+	<style>
+		.gecyf + ul {
+			border-left: 1px solid #ff996c !important;
+			border-radius: 0 0 5px 5px !important;
+			border-right: 1px solid #ff996c !important;
+			border-bottom: 1px solid #ff996c !important;
+		}
+		.gecyf + ul a {
+			color: #ff996c !important;
+		}
+		.gecyf:visited, .gecyf:active {
+			color: var(--white-color) !important;
+			background-color: #ff996c !important;
+			border: 1px solid #ff996c !important;
+		}
+		.gecyf:hover {
+			box-shadow: 4px 5px 12px #ff996cd1;
+		}
+	</style>
+
 	<script>
 		$(document).ready(function () {
 			setTimeout(function() {
@@ -325,55 +353,18 @@
 			$('.navbar--icon').click(function() {
 				$("#menu__mobile").css('opacity', '1');
 				$("#menu__mobile").css('right', '0');
-
-				setTimeout(function() {
-					$('.item1').css('opacity', '1');
-				}, 500);
-				setTimeout(function() {
-					$('.item2').css('opacity', '1');
-				}, 1000);
-				setTimeout(function() {
-					$('.item3').css('opacity', '1');
-				}, 1500);
-				setTimeout(function() {
-					$('.item4').css('opacity', '1');
-				}, 2000);
-				setTimeout(function() {
-					$('.item5').css('opacity', '1');
-				}, 2500);
 			});
 			
 			// Abre menu responsive
 			$('.navbar--icon-mobile').click(function() {
 				$("#menu__mobile").css('opacity', '1');
 				$("#menu__mobile").css('right', '0');
-
-				setTimeout(function() {
-					$('.item1').css('opacity', '1');
-				}, 500);
-				setTimeout(function() {
-					$('.item2').css('opacity', '1');
-				}, 1000);
-				setTimeout(function() {
-					$('.item3').css('opacity', '1');
-				}, 1500);
-				setTimeout(function() {
-					$('.item4').css('opacity', '1');
-				}, 2000);
-				setTimeout(function() {
-					$('.item5').css('opacity', '1');
-				}, 2500);
 			});
 			
 			// Cierra menu
 			$('.fa-times').click(function() {
 				$("#menu__mobile").css('right', '-100%');
 				$("#menu__mobile").css('opacity', '0');
-				$(".item1").css('opacity', '0');
-				$(".item2").css('opacity', '0');
-				$(".item3").css('opacity', '0');
-				$(".item4").css('opacity', '0');
-				$(".item5").css('opacity', '0');
 			});
 		});
 	</script>

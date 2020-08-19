@@ -5,7 +5,7 @@
 @media only screen and (max-width: 1200px) {
     /* --- MENU --- */
     #navbar {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 2fr 1fr;
     }
     /* --- END MENU --- */
 
@@ -93,7 +93,7 @@
 @media only screen and (max-width: 650px) {
     /* --- MENU --- */
     #navbar {
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 3fr;
         padding: 10px 15px;
         /* grid-template-areas: 
         "titulo"
