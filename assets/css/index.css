@@ -55,6 +55,20 @@
     background: var(--primary-color);
     color: white;
 }
+
+.gecyf, .gecyf:visited, .gecyf:active {
+    color: var(--white-color) !important;
+    background-color: #ff996c !important;
+    border: 1px solid #ff996c !important;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+    transition: all .3s ease;
+}
+.gecyf:hover, .gecyf:focus {
+    box-shadow: 4px 5px 12px #ff996cd1;
+}
+
 .gecyf + ul {
     border-left: 1px solid #ff996c !important;
     border-radius: 0 0 5px 5px !important;
@@ -63,14 +77,6 @@
 }
 .gecyf + ul a {
     color: #ff996c !important;
-}
-.gecyf:visited, .gecyf:active {
-    color: var(--white-color) !important;
-    background-color: #ff996c !important;
-    border: 1px solid #ff996c !important;
-}
-.gecyf:hover {
-    box-shadow: 4px 5px 12px #ff996cd1;
 }
 
 .destacados, .destacados:visited, .destacados:active {
