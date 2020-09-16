@@ -88,7 +88,6 @@
 
 .destacados1, .destacados1:visited, .destacados1:active {
     background: var(--primary-color);
-    color: white;
     border: 1px solid var(--primary-color);
 }
 
@@ -98,12 +97,20 @@
 
 .destacados2, .destacados2:visited, .destacados2:active {
     background: #19d58f;
-    color: white;
     border: 1px solid #19d58f;
 }
 
 .destacados2:hover {
     box-shadow: 4px 5px 12px #19d58f;
+}
+
+.destacados3, .destacados3:visited, .destacados3:active {
+    background: #8f5cf3;
+    border: 1px solid #8f5cf3;
+}
+
+.destacados3:hover {
+    box-shadow: 4px 5px 12px #a982f7;
 }
 /* ----------------- END DESTACADOS ----------------- */
 
