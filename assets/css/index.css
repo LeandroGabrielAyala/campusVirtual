@@ -112,6 +112,17 @@
 .destacados3:hover {
     box-shadow: 4px 5px 12px #a982f7;
 }
+
+.destacados4, .destacados4:visited, .destacados4:active {
+    background: #ec8336;
+    border: 1px solid #ec8336;
+}
+
+.destacados4:hover {
+    box-shadow: 4px 5px 12px #ec8335;
+}
+
+
 /* ----------------- END DESTACADOS ----------------- */
 
 #areas {
