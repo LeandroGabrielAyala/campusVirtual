@@ -175,10 +175,10 @@
 }
 
 .areas--link {
-    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 50%, rgba(var(--primary-color-rgba), 0.6))/*, url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg)*/;
+    background-image: linear-gradient(to right, rgb(25 155 213 / 0.95) 50%, rgb(25 155 213 / 0.95)), url(https://chensio.com/img/pattern/Patt_2_graphic.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: center left;
+    background-position: center center;
     padding: 0.8rem 1rem 1.2rem;
     border-radius: 5px;
     text-align: left;
@@ -190,7 +190,7 @@
     transition: all .3s ease;
 }
 .areas--link:hover {
-    background-image: linear-gradient(to right, rgba(var(--primary-color-rgba), 0.95) 60%, rgba(var(--primary-color-rgba), 0.6))/*, url(https://cdn.24.co.za/files/Cms/General/d/4746/3537fb30c0784830b02465ae331d2454.jpg)*/;
+    background-image: linear-gradient(to right, rgb(25 155 213 / 0.93) 50%, rgb(25 155 213 / 0.93)), url(https://chensio.com/img/pattern/Patt_2_graphic.jpg);
     background-size: 110%;
 }
 .areas--link span {			
